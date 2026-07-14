@@ -5,7 +5,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { z } from 'zod';
 import { bridge } from '../bridge-client.js';
 
-export function registerFilesTools(server: McpServer): void {
+export function registerFileTools(server: McpServer): void {
   server.tool('vscode_open', 'Abre um arquivo no editor.', { path: z.string(), line: z.number().optional(), column: z.number().optional(), preview: z.boolean().optional().default(false) },
     async ({ path, line, column, preview }) => { try { const r = await bridge.call('files.open', { path, line, column, preview }); return { content: [{ type: 'text', text: JSON.stringify(r, null, 2) }] }; } catch (e) { return { content: [{ type: 'text', text: `Erro: ${(e as Error).message}` }], isError: true }; } });
 

@@ -5,7 +5,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { z } from 'zod';
 import { bridge } from '../bridge-client.js';
 
-export function registerTodosTools(server: McpServer): void {
+export function registerTodoTools(server: McpServer): void {
 
   server.tool('vscode_todo_add', 'Adiciona um novo TODO.', { text: z.string(), priority: z.enum(['high','medium','low']).optional().default('medium'), file: z.string().optional(), line: z.number().optional(), tag: z.string().optional() },
     async ({ text, priority, file, line, tag }) => { try { const r = await bridge.call('todos.add', { text, priority, file, line, tag }); return { content: [{ type: 'text', text: JSON.stringify(r, null, 2) }] }; } catch (e) { return { content: [{ type: 'text', text: `Erro: ${(e as Error).message}` }], isError: true }; } }

@@ -5,7 +5,7 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { z } from 'zod';
 import { bridge } from '../bridge-client.js';
 
-export function registerTasksTools(server: McpServer): void {
+export function registerTaskTools(server: McpServer): void {
 
   server.tool('vscode_list_tasks', 'Lista todas as tasks definidas no workspace.', { type: z.string().optional().describe('Filtrar por tipo') },
     async ({ type }) => { try { const r = await bridge.call('tasks.list', { type }); return { content: [{ type: 'text', text: JSON.stringify(r, null, 2) }] }; } catch (e) { return { content: [{ type: 'text', text: `Erro: ${(e as Error).message}` }], isError: true }; } }

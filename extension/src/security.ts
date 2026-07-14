@@ -1,1 +1,120 @@
-aW1wb3J0ICogYXMgdnNjb2RlIGZyb20gJ3ZzY29kZSc7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAncGF0aCc7CgovKioKICogRGVmYXVsdCBjb21tYW5kcyBjb25zaWRlcmVkIHNhZmUgdG8gZXhlY3V0ZSByZW1vdGVseS4KICogVXNlcnMgY2FuIGV4dGVuZCB0aGlzIHZpYSB2c2NvZGVNY3AuYWxsb3dlZENvbW1hbmRzIGNvbmZpZy4KICovCmV4cG9ydCBjb25zdCBERUZBVUxUX0FMTE9XRURfQ09NTUFORFM6IHN0cmluZ1tdID0gWwogIC8vIEVkaXRvcgogICdlZGl0b3IuYWN0aW9uLmZvcm1hdERvY3VtZW50JywKICAnZWRpdG9yLmFjdGlvbi5mb3JtYXRTZWxlY3Rpb24nLAogICdlZGl0b3IuYWN0aW9uLm9yZ2FuaXplSW1wb3J0cycsCiAgJ2VkaXRvci5hY3Rpb24ucXVpY2tGaXgnLAogICdlZGl0b3IuYWN0aW9uLnJlbmFtZScsCiAgJ2VkaXRvci5hY3Rpb24ucmV2ZWFsRGVmaW5pdGlvbicsCiAgJ2VkaXRvci5hY3Rpb24uZ29Ub1JlZmVyZW5jZXMnLAogICdlZGl0b3IuYWN0aW9uLnRyaWdnZXJTdWdnZXN0JywKICAnZWRpdG9yLmFjdGlvbi5jb21tZW50TGluZScsCiAgJ2VkaXRvci5hY3Rpb24uYmxvY2tDb21tZW50JywKICAnZWRpdG9yLmFjdGlvbi5pbmRlbnRMaW5lcycsCiAgJ2VkaXRvci5hY3Rpb24ub3V0ZGVudExpbmVzJywKICAnZWRpdG9yLmFjdGlvbi5zZWxlY3RBbGwnLAogIC8vIFdvcmtiZW5jaAogICd3b3JrYmVuY2guYWN0aW9uLmZpbGVzLnNhdmUnLAogICd3b3JrYmVuY2guYWN0aW9uLmZpbGVzLnNhdmVBbGwnLAogICd3b3JrYmVuY2guYWN0aW9uLmNsb3NlQWN0aXZlRWRpdG9yJywKICAnd29ya2JlbmNoLmFjdGlvbi5jbG9zZUFsbEVkaXRvcnMnLAogICd3b3JrYmVuY2guYWN0aW9uLnJldmVydEZpbGUnLAogICd3b3JrYmVuY2guYWN0aW9uLnRlcm1pbmFsLm5ldycsCiAgJ3dvcmtiZW5jaC5hY3Rpb24udGVybWluYWwuZm9jdXMnLAogICd3b3JrYmVuY2guYWN0aW9uLnRvZ2dsZVNpZGViYXJWaXNpYmlsaXR5JywKICAnd29ya2JlbmNoLmFjdGlvbi50b2dnbGVQYW5lbCcsCiAgJ3dvcmtiZW5jaC52aWV3LmV4cGxvcmVyJywKICAnd29ya2JlbmNoLnZpZXcuc2VhcmNoJywKICAnd29ya2JlbmNoLnZpZXcuc2NtJywKICAnd29ya2JlbmNoLnZpZXcuZGVidWcnLAogICd3b3JrYmVuY2gudmlldy5leHRlbnNpb25zJywKICAvLyBTZWFyY2gKICAnd29ya2JlbmNoLmFjdGlvbi5maW5kSW5GaWxlcycsCiAgJ2VkaXRvci5hY3Rpb24uc3RhcnRGaW5kUmVwbGFjZUFjdGlvbicsCiAgLy8gR2l0CiAgJ2dpdC5yZWZyZXNoJywKICAnZ2l0LnB1bGwnLAogICdnaXQucHVzaCcsCiAgJ2dpdC5zeW5jJywKICAnZ2l0LnN0YWdlJywKICAnZ2l0LnN0YWdlQWxsJywKICAnZ2l0LnVuc3RhZ2UnLAogICdnaXQudW5zdGFnZUFsbCcsCiAgJ2dpdC5jb21taXQnLAogICdnaXQuY29tbWl0QWxsJywKICAnZ2l0LmNoZWNrb3V0JywKICAnZ2l0LmJyYW5jaCcsCiAgJ2dpdC5kZWxldGVCcmFuY2gnLAogICdnaXQubWVyZ2UnLAogICdnaXQucmViYXNlJywKICAnZ2l0LnN0YXNoJywKICAnZ2l0LnN0YXNoUG9wJywKICAvLyBUZXJtaW5hbAogICd3b3JrYmVuY2guYWN0aW9uLnRlcm1pbmFsLmtpbGwnLAogICd3b3JrYmVuY2guYWN0aW9uLnRlcm1pbmFsLmNsZWFyJywKICAvLyBEaWZmCiAgJ3ZzY29kZS5kaWZmJywKICAndnNjb2RlLm9wZW4nLApdOwoKLyoqCiAqIENoZWNrIGlmIGEgVlMgQ29kZSBjb21tYW5kIGlzIGFsbG93ZWQgdG8gYmUgZXhlY3V0ZWQgcmVtb3RlbHkuCiAqLwpleHBvcnQgZnVuY3Rpb24gaXNDb21tYW5kQWxsb3dlZChjb21tYW5kOiBzdHJpbmcpOiBib29sZWFuIHsKICBjb25zdCBjb25maWcgPSB2c2NvZGUud29ya3NwYWNlLmdldENvbmZpZ3VyYXRpb24oJ3ZzY29kZU1jcCcpOwogIGNvbnN0IHVzZXJBbGxvd2VkOiBzdHJpbmdbXSA9IGNvbmZpZy5nZXQoJ2FsbG93ZWRDb21tYW5kcycsIFtdKTsKICBjb25zdCBhbGxBbGxvd2VkID0gWy4uLkRFRkFVTFRfQUxMT1dFRF9DT01NQU5EUywgLi4udXNlckFsbG93ZWRdOwogIHJldHVybiBhbGxBbGxvd2VkLmluY2x1ZGVzKGNvbW1hbmQpOwp9CgovKioKICogVmFsaWRhdGUgdGhlIHNoYXJlZCBzZWNyZXQgc2VudCBieSB0aGUgTUNQIHNlcnZlci4KICovCmV4cG9ydCBmdW5jdGlvbiB2YWxpZGF0ZVNlY3JldChyZWNlaXZlZDogc3RyaW5nIHwgdW5kZWZpbmVkKTogYm9vbGVhbiB7CiAgY29uc3QgY29uZmlnID0gdnNjb2RlLndvcmtzcGFjZS5nZXRDb25maWd1cmF0aW9uKCd2c2NvZGVNY3AnKTsKICBjb25zdCBleHBlY3RlZCA9IGNvbmZpZy5nZXQ8c3RyaW5nPignYnJpZGdlU2VjcmV0JywgJycpOwoKICAvLyBJZiBubyBzZWNyZXQgY29uZmlndXJlZCwgYWxzbyBjaGVjayBCUklER0VfU0VDUkVUIGVudiB2YXIKICBjb25zdCBlbnZTZWNyZXQgPSBwcm9jZXNzLmVudi5CUklER0VfU0VDUkVUID8/ICcnOwogIGNvbnN0IHNlY3JldCA9IGV4cGVjdGVkIHx8IGVudlNlY3JldDsKCiAgaWYgKCFzZWNyZXQpIHsKICAgIC8vIE5vIHNlY3JldCBjb25maWd1cmVkIOKAlCBhbGxvdyBjb25uZWN0aW9uICh1c2VmdWwgZm9yIGxvY2FsIGRldikKICAgIHJldHVybiB0cnVlOwogIH0KCiAgcmV0dXJuIHJlY2VpdmVkID09PSBzZWNyZXQ7Cn0KCi8qKgogKiBTYW5pdGl6ZSBhIGZpbGUgcGF0aCB0byBwcmV2ZW50IGRpcmVjdG9yeSB0cmF2ZXJzYWwgYXR0YWNrcy4KICogUmVzb2x2ZXMgdGhlIHBhdGggcmVsYXRpdmUgdG8gd29ya3NwYWNlIHJvb3QgYW5kIGVuc3VyZXMgaXQgc3RheXMgd2l0aGluLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHNhbml0aXplUGF0aChmaWxlUGF0aDogc3RyaW5nLCB3b3Jrc3BhY2VSb290OiBzdHJpbmcpOiBzdHJpbmcgewogIGNvbnN0IHJlc29sdmVkID0gcGF0aC5yZXNvbHZlKHdvcmtzcGFjZVJvb3QsIGZpbGVQYXRoKTsKCiAgLy8gRW5zdXJlIHRoZSByZXNvbHZlZCBwYXRoIGlzIHdpdGhpbiB0aGUgd29ya3NwYWNlCiAgaWYgKCFyZXNvbHZlZC5zdGFydHNXaXRoKHdvcmtzcGFjZVJvb3QpKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoYFBhdGggIiR7ZmlsZVBhdGh9IiBlc2NhcGVzIHdvcmtzcGFjZSByb290YCk7CiAgfQoKICByZXR1cm4gcmVzb2x2ZWQ7Cn0KCi8qKgogKiBHZXQgd29ya3NwYWNlIHJvb3QgcGF0aCAoZmlyc3Qgd29ya3NwYWNlIGZvbGRlcikuCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0V29ya3NwYWNlUm9vdCgpOiBzdHJpbmcgewogIGNvbnN0IGZvbGRlcnMgPSB2c2NvZGUud29ya3NwYWNlLndvcmtzcGFjZUZvbGRlcnM7CiAgaWYgKCFmb2xkZXJzIHx8IGZvbGRlcnMubGVuZ3RoID09PSAwKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ05vIHdvcmtzcGFjZSBmb2xkZXIgb3BlbicpOwogIH0KICByZXR1cm4gZm9sZGVyc1swXS51cmkuZnNQYXRoOwp9Cg==
+import * as vscode from 'vscode';
+import * as path from 'path';
+
+/**
+ * Default commands considered safe to execute remotely.
+ * Users can extend this via vscodeMcp.allowedCommands config.
+ */
+export const DEFAULT_ALLOWED_COMMANDS: string[] = [
+  // Editor
+  'editor.action.formatDocument',
+  'editor.action.formatSelection',
+  'editor.action.organizeImports',
+  'editor.action.quickFix',
+  'editor.action.rename',
+  'editor.action.revealDefinition',
+  'editor.action.goToReferences',
+  'editor.action.triggerSuggest',
+  'editor.action.commentLine',
+  'editor.action.blockComment',
+  'editor.action.indentLines',
+  'editor.action.outdentLines',
+  'editor.action.selectAll',
+  // Workbench
+  'workbench.action.files.save',
+  'workbench.action.files.saveAll',
+  'workbench.action.closeActiveEditor',
+  'workbench.action.closeAllEditors',
+  'workbench.action.revertFile',
+  'workbench.action.terminal.new',
+  'workbench.action.terminal.focus',
+  'workbench.action.toggleSidebarVisibility',
+  'workbench.action.togglePanel',
+  'workbench.view.explorer',
+  'workbench.view.search',
+  'workbench.view.scm',
+  'workbench.view.debug',
+  'workbench.view.extensions',
+  // Search
+  'workbench.action.findInFiles',
+  'editor.action.startFindReplaceAction',
+  // Git
+  'git.refresh',
+  'git.pull',
+  'git.push',
+  'git.sync',
+  'git.stage',
+  'git.stageAll',
+  'git.unstage',
+  'git.unstageAll',
+  'git.commit',
+  'git.commitAll',
+  'git.checkout',
+  'git.branch',
+  'git.deleteBranch',
+  'git.merge',
+  'git.rebase',
+  'git.stash',
+  'git.stashPop',
+  // Terminal
+  'workbench.action.terminal.kill',
+  'workbench.action.terminal.clear',
+  // Diff
+  'vscode.diff',
+  'vscode.open',
+];
+
+/**
+ * Check if a VS Code command is allowed to be executed remotely.
+ */
+export function isCommandAllowed(command: string): boolean {
+  const config = vscode.workspace.getConfiguration('vscodeMcp');
+  const userAllowed: string[] = config.get('allowedCommands', []);
+  const allAllowed = [...DEFAULT_ALLOWED_COMMANDS, ...userAllowed];
+  return allAllowed.includes(command);
+}
+
+/**
+ * Validate the shared secret sent by the MCP server.
+ */
+export function validateSecret(received: string | undefined): boolean {
+  const config = vscode.workspace.getConfiguration('vscodeMcp');
+  const expected = config.get<string>('bridgeSecret', '');
+
+  // If no secret configured, also check BRIDGE_SECRET env var
+  const envSecret = process.env.BRIDGE_SECRET ?? '';
+  const secret = expected || envSecret;
+
+  if (!secret) {
+    // No secret configured — allow connection (useful for local dev)
+    return true;
+  }
+
+  return received === secret;
+}
+
+/**
+ * Sanitize a file path to prevent directory traversal attacks.
+ * Resolves the path relative to workspace root and ensures it stays within.
+ */
+export function sanitizePath(filePath: string, workspaceRoot: string): string {
+  const resolved = path.resolve(workspaceRoot, filePath);
+
+  // Ensure the resolved path is within the workspace
+  if (!resolved.startsWith(workspaceRoot)) {
+    throw new Error(`Path "${filePath}" escapes workspace root`);
+  }
+
+  return resolved;
+}
+
+/**
+ * Get workspace root path (first workspace folder).
+ */
+export function getWorkspaceRoot(): string {
+  const folders = vscode.workspace.workspaceFolders;
+  if (!folders || folders.length === 0) {
+    throw new Error('No workspace folder open');
+  }
+  return folders[0].uri.fsPath;
+}

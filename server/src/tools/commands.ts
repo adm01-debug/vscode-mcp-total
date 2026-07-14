@@ -7,7 +7,7 @@ import { bridge } from '../bridge-client.js';
 
 export const DEFAULT_ALLOWED_COMMANDS = ['editor.action.clipboardCopyAction','editor.action.clipboardPasteAction','workbench.action.files.save','workbench.action.files.saveAll','workbench.action.reloadWindow','editor.action.formatDocument','editor.action.organizeImports','editor.action.fixAll','git.refresh','git.stage','git.unstage','testing.runAll'];
 
-export function registerCommandsTools(server: McpServer): void {
+export function registerCommandTools(server: McpServer): void {
   server.tool('vscode_execute_command', 'Executa qualquer comando do VS Code pela sua ID.', { command: z.string(), args: z.array(z.unknown()).optional() },
     async ({ command, args }) => { try { const r = await bridge.call('commands.execute', { command, args }); return { content: [{ type: 'text', text: JSON.stringify(r, null, 2) }] }; } catch (e) { return { content: [{ type: 'text', text: `Erro: ${(e as Error).message}` }], isError: true }; } });
 

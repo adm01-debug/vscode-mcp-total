@@ -1,1 +1,204 @@
-aW1wb3J0ICogYXMgdnNjb2RlIGZyb20gJ3ZzY29kZSc7CmltcG9ydCBXZWJTb2NrZXQgZnJvbSAnd3MnOwppbXBvcnQgeyB2YWxpZGF0ZVNlY3JldCB9IGZyb20gJy4vc2VjdXJpdHknOwppbXBvcnQgeyBoYW5kbGVUZXJtaW5hbCB9IGZyb20gJy4vaGFuZGxlcnMvdGVybWluYWwnOwppbXBvcnQgeyBoYW5kbGVGaWxlcyB9IGZyb20gJy4vaGFuZGxlcnMvZmlsZXMnOwppbXBvcnQgeyBoYW5kbGVJbnRlbGxpZ2VuY2UgfSBmcm9tICcuL2hhbmRsZXJzL2ludGVsbGlnZW5jZSc7CmltcG9ydCB7IGhhbmRsZVRhc2tzIH0gZnJvbSAnLi9oYW5kbGVycy90YXNrcyc7CmltcG9ydCB7IGhhbmRsZURlYnVnIH0gZnJvbSAnLi9oYW5kbGVycy9kZWJ1Zyc7CmltcG9ydCB7IGhhbmRsZUdpdCB9IGZyb20gJy4vaGFuZGxlcnMvZ2l0JzsKaW1wb3J0IHsgaGFuZGxlVG9kb3MgfSBmcm9tICcuL2hhbmRsZXJzL3RvZG9zJzsKaW1wb3J0IHsgaGFuZGxlQ29tbWFuZHMgfSBmcm9tICcuL2hhbmRsZXJzL2NvbW1hbmRzJzsKaW1wb3J0IHsgaGFuZGxlVUkgfSBmcm9tICcuL2hhbmRsZXJzL3VpJzsKaW1wb3J0IHsgaGFuZGxlQWdlbnQgfSBmcm9tICcuL2hhbmRsZXJzL2FnZW50JzsKaW1wb3J0IHsgaGFuZGxlV29ya3NwYWNlIH0gZnJvbSAnLi9oYW5kbGVycy93b3Jrc3BhY2UnOwoKbGV0IHdzOiBXZWJTb2NrZXQgfCBudWxsID0gbnVsbDsKbGV0IHJlY29ubmVjdFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRUaW1lb3V0PiB8IG51bGwgPSBudWxsOwpsZXQgc3RhdHVzQmFySXRlbTogdnNjb2RlLlN0YXR1c0Jhckl0ZW07CmNvbnN0IFJFQ09OTkVDVF9JTlRFUlZBTCA9IDUwMDA7CgpleHBvcnQgZnVuY3Rpb24gYWN0aXZhdGUoY29udGV4dDogdnNjb2RlLkV4dGVuc2lvbkNvbnRleHQpOiB2b2lkIHsKICBjb25zb2xlLmxvZygnW21jcC1icmlkZ2VdIEV4dGVuc2lvbiBhY3RpdmF0aW5nLi4uJyk7CgogIHN0YXR1c0Jhckl0ZW0gPSB2c2NvZGUud2luZG93LmNyZWF0ZVN0YXR1c0Jhckl0ZW0odnNjb2RlLlN0YXR1c0JhckFsaWdubWVudC5SaWdodCwgMTAwKTsKICBzdGF0dXNCYXJJdGVtLnRleHQgPSAnJChwbHVnKSBNQ1A6IENvbm5lY3RpbmcuLi4nOwogIHN0YXR1c0Jhckl0ZW0uc2hvdygpOwogIGNvbnRleHQuc3Vic2NyaXB0aW9ucy5wdXNoKHN0YXR1c0Jhckl0ZW0pOwoKICBjb25uZWN0KGNvbnRleHQpOwoKICAvLyBSZWNvbm5lY3Qgb24gY29uZmlnIGNoYW5nZQogIGNvbnRleHQuc3Vic2NyaXB0aW9ucy5wdXNoKAogICAgdnNjb2RlLndvcmtzcGFjZS5vbkRpZENoYW5nZUNvbmZpZ3VyYXRpb24oKGUpID0+IHsKICAgICAgaWYgKGUuYWZmZWN0c0NvbmZpZ3VyYXRpb24oJ3ZzY29kZU1jcCcpKSB7CiAgICAgICAgZGlzY29ubmVjdCgpOwogICAgICAgIGNvbm5lY3QoY29udGV4dCk7CiAgICAgIH0KICAgIH0pCiAgKTsKCiAgLy8gTWFudWFsIHJlY29ubmVjdCBjb21tYW5kCiAgY29udGV4dC5zdWJzY3JpcHRpb25zLnB1c2goCiAgICB2c2NvZGUuY29tbWFuZHMucmVnaXN0ZXJDb21tYW5kKCd2c2NvZGVNY3AucmVjb25uZWN0JywgKCkgPT4gewogICAgICBkaXNjb25uZWN0KCk7CiAgICAgIGNvbm5lY3QoY29udGV4dCk7CiAgICB9KQogICk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBkZWFjdGl2YXRlKCk6IHZvaWQgewogIGRpc2Nvbm5lY3QoKTsKfQoKZnVuY3Rpb24gZ2V0Q29ubmVjdGlvblVybCgpOiBzdHJpbmcgewogIGNvbnN0IGNvbmZpZyA9IHZzY29kZS53b3Jrc3BhY2UuZ2V0Q29uZmlndXJhdGlvbigndnNjb2RlTWNwJyk7CiAgY29uc3QgaG9zdCA9IGNvbmZpZy5nZXQ8c3RyaW5nPignYnJpZGdlSG9zdCcsICcxMjcuMC4wLjEnKTsKICBjb25zdCBwb3J0ID0gY29uZmlnLmdldDxudW1iZXI+KCdicmlkZ2VQb3J0JywgNzEwMCk7CiAgcmV0dXJuIGB3czovLyR7aG9zdH06JHtwb3J0fWA7Cn0KCmZ1bmN0aW9uIGNvbm5lY3QoX2NvbnRleHQ6IHZzY29kZS5FeHRlbnNpb25Db250ZXh0KTogdm9pZCB7CiAgaWYgKHdzKSByZXR1cm47CgogIGNvbnN0IHVybCA9IGdldENvbm5lY3Rpb25VcmwoKTsKICBjb25zb2xlLmxvZyhgW21jcC1icmlkZ2VdIENvbm5lY3RpbmcgdG8gJHt1cmx9Li4uYCk7CgogIHRyeSB7CiAgICB3cyA9IG5ldyBXZWJTb2NrZXQodXJsKTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ1ttY3AtYnJpZGdlXSBGYWlsZWQgdG8gY3JlYXRlIFdlYlNvY2tldDonLCBlcnIpOwogICAgc2NoZWR1bGVSZWNvbm5lY3QoX2NvbnRleHQpOwogICAgcmV0dXJuOwogIH0KCiAgd3Mub24oJ29wZW4nLCAoKSA9PiB7CiAgICBjb25zb2xlLmxvZygnW21jcC1icmlkZ2VdIENvbm5lY3RlZCEnKTsKICAgIHN0YXR1c0Jhckl0ZW0udGV4dCA9ICckKHBsdWcpIE1DUDogQ29ubmVjdGVkJzsKICAgIHN0YXR1c0Jhckl0ZW0uYmFja2dyb3VuZENvbG9yID0gdW5kZWZpbmVkOwoKICAgIC8vIFNlbmQgaGVsbG8gbWVzc2FnZQogICAgY29uc3QgaGVsbG8gPSBidWlsZEhlbGxvKCk7CiAgICB3cz8uc2VuZChKU09OLnN0cmluZ2lmeShoZWxsbykpOwogIH0pOwoKICB3cy5vbignbWVzc2FnZScsIGFzeW5jIChyYXc6IFdlYlNvY2tldC5SYXdEYXRhKSA9PiB7CiAgICBsZXQgbXNnOiBhbnk7CiAgICB0cnkgewogICAgICBtc2cgPSBKU09OLnBhcnNlKHJhdy50b1N0cmluZygpKTsKICAgIH0gY2F0Y2ggewogICAgICBjb25zb2xlLmVycm9yKCdbbWNwLWJyaWRnZV0gSW52YWxpZCBKU09OIHJlY2VpdmVkJyk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICAvLyBEaXNwYXRjaCBicmlkZ2UgbWVzc2FnZXMgKGhhcyBpZCArIG1ldGhvZCkKICAgIGlmIChtc2cuaWQgJiYgbXNnLm1ldGhvZCkgewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGRpc3BhdGNoKG1zZy5tZXRob2QsIG1zZy5wYXJhbXMgPz8ge30pOwogICAgICAgIHdzPy5zZW5kKEpTT04uc3RyaW5naWZ5KHsgaWQ6IG1zZy5pZCwgcmVzdWx0IH0pKTsKICAgICAgfSBjYXRjaCAoZXJyKSB7CiAgICAgICAgY29uc3QgZXJyb3IgPSBlcnIgaW5zdGFuY2VvZiBFcnJvciA/IGVyciA6IG5ldyBFcnJvcihTdHJpbmcoZXJyKSk7CiAgICAgICAgd3M/LnNlbmQoSlNPTi5zdHJpbmdpZnkoewogICAgICAgICAgaWQ6IG1zZy5pZCwKICAgICAgICAgIGVycm9yOiB7IGNvZGU6ICdIQU5ETEVSX0VSUk9SJywgbWVzc2FnZTogZXJyb3IubWVzc2FnZSB9LAogICAgICAgIH0pKTsKICAgICAgfQogICAgfQogIH0pOwoKICB3cy5vbignY2xvc2UnLCAoY29kZTogbnVtYmVyLCByZWFzb246IEJ1ZmZlcikgPT4gewogICAgY29uc29sZS5sb2coYFttY3AtYnJpZGdlXSBEaXNjb25uZWN0ZWQ6ICR7Y29kZX0gJHtyZWFzb24udG9TdHJpbmcoKX1gKTsKICAgIHdzID0gbnVsbDsKICAgIHN0YXR1c0Jhckl0ZW0udGV4dCA9ICckKHBsdWcpIE1DUDogRGlzY29ubmVjdGVkJzsKICAgIHN0YXR1c0Jhckl0ZW0uYmFja2dyb3VuZENvbG9yID0gbmV3IHZzY29kZS5UaGVtZUNvbG9yKCdzdGF0dXNCYXJJdGVtLndhcm5pbmdCYWNrZ3JvdW5kJyk7CiAgICBzY2hlZHVsZVJlY29ubmVjdChfY29udGV4dCk7CiAgfSk7CgogIHdzLm9uKCdlcnJvcicsIChlcnI6IEVycm9yKSA9PiB7CiAgICBjb25zb2xlLmVycm9yKCdbbWNwLWJyaWRnZV0gV2ViU29ja2V0IGVycm9yOicsIGVyci5tZXNzYWdlKTsKICB9KTsKfQoKZnVuY3Rpb24gZGlzY29ubmVjdCgpOiB2b2lkIHsKICBpZiAocmVjb25uZWN0VGltZXIpIHsKICAgIGNsZWFyVGltZW91dChyZWNvbm5lY3RUaW1lcik7CiAgICByZWNvbm5lY3RUaW1lciA9IG51bGw7CiAgfQogIGlmICh3cykgewogICAgd3MuY2xvc2UoKTsKICAgIHdzID0gbnVsbDsKICB9Cn0KCmZ1bmN0aW9uIHNjaGVkdWxlUmVjb25uZWN0KGNvbnRleHQ6IHZzY29kZS5FeHRlbnNpb25Db250ZXh0KTogdm9pZCB7CiAgaWYgKHJlY29ubmVjdFRpbWVyKSByZXR1cm47CiAgcmVjb25uZWN0VGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgIHJlY29ubmVjdFRpbWVyID0gbnVsbDsKICAgIGNvbm5lY3QoY29udGV4dCk7CiAgfSwgUkVDT05ORUNUX0lOVEVSVkFMKTsKfQoKZnVuY3Rpb24gYnVpbGRIZWxsbygpOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPiB7CiAgY29uc3QgZm9sZGVycyA9IHZzY29kZS53b3Jrc3BhY2Uud29ya3NwYWNlRm9sZGVycyA/PyBbXTsKICBjb25zdCBnaXRFeHRlbnNpb24gPSB2c2NvZGUuZXh0ZW5zaW9ucy5nZXRFeHRlbnNpb24oJ3ZzY29kZS5naXQnKTsKCiAgcmV0dXJuIHsKICAgIHR5cGU6ICdoZWxsbycsCiAgICB3b3Jrc3BhY2VGb2xkZXJzOiBmb2xkZXJzLm1hcCgoZikgPT4gZi51cmkuZnNQYXRoKSwKICAgIHZzY29kVmVyc2lvbjogdnNjb2RlLnZlcnNpb24sCiAgICBtYWNoaW5lSWQ6IHZzY29kZS5lbnYubWFjaGluZUlkLAogICAgZXh0ZW5zaW9uVmVyc2lvbjogJzEuMC4wJywKICAgIGhhc0dpdDogISFnaXRFeHRlbnNpb24sCiAgICBzaGFyZWRTZWNyZXQ6IGdldFNlY3JldCgpLAogIH07Cn0KCmZ1bmN0aW9uIGdldFNlY3JldCgpOiBzdHJpbmcgewogIGNvbnN0IGNvbmZpZyA9IHZzY29kZS53b3Jrc3BhY2UuZ2V0Q29uZmlndXJhdGlvbigndnNjb2RlTWNwJyk7CiAgcmV0dXJuIGNvbmZpZy5nZXQ8c3RyaW5nPignYnJpZGdlU2VjcmV0JywgJycpIHx8IHByb2Nlc3MuZW52LkJSSURHRV9TRUNSRVQgfHwgJyc7Cn0KCi8qKgogKiBEaXNwYXRjaCBhIGJyaWRnZSBtZXRob2QgY2FsbCB0byB0aGUgYXBwcm9wcmlhdGUgaGFuZGxlci4KICovCmFzeW5jIGZ1bmN0aW9uIGRpc3BhdGNoKG1ldGhvZDogc3RyaW5nLCBwYXJhbXM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+KTogUHJvbWlzZTx1bmtub3duPiB7CiAgY29uc3QgW2RvbWFpbiwgYWN0aW9uXSA9IG1ldGhvZC5zcGxpdCgnLicpOwoKICBzd2l0Y2ggKGRvbWFpbikgewogICAgY2FzZSAndGVybWluYWwnOgogICAgICByZXR1cm4gaGFuZGxlVGVybWluYWwoYWN0aW9uLCBwYXJhbXMpOwoKICAgIGNhc2UgJ2ZpbGVzJzoKICAgICAgcmV0dXJuIGhhbmRsZUZpbGVzKGFjdGlvbiwgcGFyYW1zKTsKCiAgICBjYXNlICdpbnRlbGxpZ2VuY2UnOgogICAgICByZXR1cm4gaGFuZGxlSW50ZWxsaWdlbmNlKGFjdGlvbiwgcGFyYW1zKTsKCiAgICBjYXNlICd0YXNrcyc6CiAgICAgIHJldHVybiBoYW5kbGVUYXNrcyhhY3Rpb24sIHBhcmFtcyk7CgogICAgY2FzZSAnZGVidWcnOgogICAgICByZXR1cm4gaGFuZGxlRGVidWcoYWN0aW9uLCBwYXJhbXMpOwoKICAgIGNhc2UgJ2dpdCc6CiAgICAgIHJldHVybiBoYW5kbGVHaXQoYWN0aW9uLCBwYXJhbXMpOwoKICAgIGNhc2UgJ3RvZG9zJzoKICAgICAgcmV0dXJuIGhhbmRsZVRvZG9zKGFjdGlvbiwgcGFyYW1zKTsKCiAgICBjYXNlICdjb21tYW5kcyc6CiAgICAgIHJldHVybiBoYW5kbGVDb21tYW5kcyhhY3Rpb24sIHBhcmFtcyk7CgogICAgY2FzZSAndWknOgogICAgICByZXR1cm4gaGFuZGxlVUkoYWN0aW9uLCBwYXJhbXMpOwoKICAgIGNhc2UgJ2FnZW50JzoKICAgICAgcmV0dXJuIGhhbmRsZUFnZW50KGFjdGlvbiwgcGFyYW1zKTsKCiAgICBjYXNlICd3b3Jrc3BhY2UnOgogICAgICByZXR1cm4gaGFuZGxlV29ya3NwYWNlKGFjdGlvbiwgcGFyYW1zKTsKCiAgICBkZWZhdWx0OgogICAgICB0aHJvdyBuZXcgRXJyb3IoYFVua25vd24gbWV0aG9kIGRvbWFpbjogJHtkb21haW59YCk7CiAgfQp9Cg==
+import * as vscode from 'vscode';
+import WebSocket from 'ws';
+import { validateSecret } from './security';
+import { handleTerminal } from './handlers/terminal';
+import { handleFiles } from './handlers/files';
+import { handleIntelligence } from './handlers/intelligence';
+import { handleTasks } from './handlers/tasks';
+import { handleDebug } from './handlers/debug';
+import { handleGit } from './handlers/git';
+import { handleTodos } from './handlers/todos';
+import { handleCommands } from './handlers/commands';
+import { handleUI } from './handlers/ui';
+import { handleAgent } from './handlers/agent';
+import { handleWorkspace } from './handlers/workspace';
+
+let ws: WebSocket | null = null;
+let reconnectTimer: ReturnType<typeof setTimeout> | null = null;
+let statusBarItem: vscode.StatusBarItem;
+const RECONNECT_INTERVAL = 5000;
+
+export function activate(context: vscode.ExtensionContext): void {
+  console.log('[mcp-bridge] Extension activating...');
+
+  statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
+  statusBarItem.text = '$(plug) MCP: Connecting...';
+  statusBarItem.show();
+  context.subscriptions.push(statusBarItem);
+
+  connect(context);
+
+  // Reconnect on config change
+  context.subscriptions.push(
+    vscode.workspace.onDidChangeConfiguration((e) => {
+      if (e.affectsConfiguration('vscodeMcp')) {
+        disconnect();
+        connect(context);
+      }
+    })
+  );
+
+  // Manual reconnect command
+  context.subscriptions.push(
+    vscode.commands.registerCommand('vscodeMcp.reconnect', () => {
+      disconnect();
+      connect(context);
+    })
+  );
+}
+
+export function deactivate(): void {
+  disconnect();
+}
+
+function getConnectionUrl(): string {
+  const config = vscode.workspace.getConfiguration('vscodeMcp');
+  const host = config.get<string>('bridgeHost', '127.0.0.1');
+  const port = config.get<number>('bridgePort', 7100);
+  return `ws://${host}:${port}`;
+}
+
+function connect(_context: vscode.ExtensionContext): void {
+  if (ws) return;
+
+  const url = getConnectionUrl();
+  console.log(`[mcp-bridge] Connecting to ${url}...`);
+
+  try {
+    ws = new WebSocket(url);
+  } catch (err) {
+    console.error('[mcp-bridge] Failed to create WebSocket:', err);
+    scheduleReconnect(_context);
+    return;
+  }
+
+  ws.on('open', () => {
+    console.log('[mcp-bridge] Connected!');
+    statusBarItem.text = '$(plug) MCP: Connected';
+    statusBarItem.backgroundColor = undefined;
+
+    // Send hello message
+    const hello = buildHello();
+    ws?.send(JSON.stringify(hello));
+  });
+
+  ws.on('message', async (raw: WebSocket.RawData) => {
+    let msg: any;
+    try {
+      msg = JSON.parse(raw.toString());
+    } catch {
+      console.error('[mcp-bridge] Invalid JSON received');
+      return;
+    }
+
+    // Dispatch bridge messages (has id + method)
+    if (msg.id && msg.method) {
+      try {
+        const result = await dispatch(msg.method, msg.params ?? {});
+        ws?.send(JSON.stringify({ id: msg.id, result }));
+      } catch (err) {
+        const error = err instanceof Error ? err : new Error(String(err));
+        ws?.send(JSON.stringify({
+          id: msg.id,
+          error: { code: 'HANDLER_ERROR', message: error.message },
+        }));
+      }
+    }
+  });
+
+  ws.on('close', (code: number, reason: Buffer) => {
+    console.log(`[mcp-bridge] Disconnected: ${code} ${reason.toString()}`);
+    ws = null;
+    statusBarItem.text = '$(plug) MCP: Disconnected';
+    statusBarItem.backgroundColor = new vscode.ThemeColor('statusBarItem.warningBackground');
+    scheduleReconnect(_context);
+  });
+
+  ws.on('error', (err: Error) => {
+    console.error('[mcp-bridge] WebSocket error:', err.message);
+  });
+}
+
+function disconnect(): void {
+  if (reconnectTimer) {
+    clearTimeout(reconnectTimer);
+    reconnectTimer = null;
+  }
+  if (ws) {
+    ws.close();
+    ws = null;
+  }
+}
+
+function scheduleReconnect(context: vscode.ExtensionContext): void {
+  if (reconnectTimer) return;
+  reconnectTimer = setTimeout(() => {
+    reconnectTimer = null;
+    connect(context);
+  }, RECONNECT_INTERVAL);
+}
+
+function buildHello(): Record<string, unknown> {
+  const folders = vscode.workspace.workspaceFolders ?? [];
+  const gitExtension = vscode.extensions.getExtension('vscode.git');
+
+  return {
+    type: 'hello',
+    workspaceFolders: folders.map((f) => f.uri.fsPath),
+    vscodVersion: vscode.version,
+    machineId: vscode.env.machineId,
+    extensionVersion: '1.0.0',
+    hasGit: !!gitExtension,
+    sharedSecret: getSecret(),
+  };
+}
+
+function getSecret(): string {
+  const config = vscode.workspace.getConfiguration('vscodeMcp');
+  return config.get<string>('bridgeSecret', '') || process.env.BRIDGE_SECRET || '';
+}
+
+/**
+ * Dispatch a bridge method call to the appropriate handler.
+ */
+async function dispatch(method: string, params: Record<string, unknown>): Promise<unknown> {
+  const [domain, action] = method.split('.');
+
+  switch (domain) {
+    case 'terminal':
+      return handleTerminal(action, params);
+
+    case 'files':
+      return handleFiles(action, params);
+
+    case 'intelligence':
+      return handleIntelligence(action, params);
+
+    case 'tasks':
+      return handleTasks(action, params);
+
+    case 'debug':
+      return handleDebug(action, params);
+
+    case 'git':
+      return handleGit(action, params);
+
+    case 'todos':
+      return handleTodos(action, params);
+
+    case 'commands':
+      return handleCommands(action, params);
+
+    case 'ui':
+      return handleUI(action, params);
+
+    case 'agent':
+      return handleAgent(action, params);
+
+    case 'workspace':
+      return handleWorkspace(action, params);
+
+    default:
+      throw new Error(`Unknown method domain: ${domain}`);
+  }
+}
