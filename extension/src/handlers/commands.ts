@@ -1,12 +1,12 @@
 import * as vscode from 'vscode';
-import { validateCommand } from '../security';
+import { isCommandAllowed } from '../security';
 
 export async function handleCommands(action: string, params: Record<string, unknown>): Promise<unknown> {
   switch (action) {
     case 'execute': {
       const command = params.command as string;
       const args = params.args as unknown[] | undefined;
-      if (!validateCommand(command)) {
+      if (!isCommandAllowed(command)) {
         throw new Error(`Command not allowed: ${command}`);
       }
       const result = await vscode.commands.executeCommand(command, ...(args || []));
