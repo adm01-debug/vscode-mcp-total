@@ -1,1 +1,73 @@
-IyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyBkb2NrZXItY29tcG9zZS55bWwg4oCUIERFU0VOVk9MVklNRU5UTyAvIFRFU1RFIExPQ0FMCiMgUGFyYSBzdWJpciBsb2NhbG1lbnRlIGUgdGVzdGFyIGFudGVzIGRlIGpvZ2FyIG5vIFN3YXJtLgojCiMgVXNvOgojICAgY3AgLmVudi5leGFtcGxlIC5lbnYgICMgcHJlZW5jaGEgb3MgdmFsb3JlcwojICAgZG9ja2VyIGNvbXBvc2UgdXAgLWQKIyAgIGRvY2tlciBjb21wb3NlIGxvZ3MgLWYKIwojIEFjZXNzbzoKIyAgIGNvZGUtc2VydmVyOiAgaHR0cDovL2xvY2FsaG9zdDo4NDQzICAoc2VuaGE6IENPREVfU0VSVkVSX1BBU1NXT1JEIGRvIC5lbnYpCiMgICBNQ1AgU2VydmVyOiAgIGh0dHA6Ly9sb2NhbGhvc3Q6NzMzNy9waW5nCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpzZXJ2aWNlczoKCiAgIyDilIDilIAgY29kZS1zZXJ2ZXIgKFZTIENvZGUgbm8gYnJvd3Nlcikg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACiAgY29kZS1zZXJ2ZXI6CiAgICBpbWFnZTogbHNjci5pby9saW51eHNlcnZlci9jb2RlLXNlcnZlcjpsYXRlc3QKICAgIGNvbnRhaW5lcl9uYW1lOiBjb2RlLXNlcnZlcgogICAgZW52aXJvbm1lbnQ6CiAgICAgIC0gUFVJRD0xMDAwCiAgICAgIC0gUEdJRD0xMDAwCiAgICAgIC0gVFo9QW1lcmljYS9TYW9fUGF1bG8KICAgICAgLSBQQVNTV09SRD0ke0NPREVfU0VSVkVSX1BBU1NXT1JEfQogICAgICAtIERFRkFVTFRfV09SS1NQQUNFPS93b3Jrc3BhY2UKICAgICAgIyBJbnN0YWxhIGEgZXh0ZW5zw6NvIGJyaWRnZSBlIGNvbmZpZ3VyYSBvIHNoYXJlZFNlY3JldCBuYSBpbmljaWFsaXphw6fDo28KICAgICAgLSBET0NLRVJfTU9EUz1saW51eHNlcnZlci9tb2RzOmNvZGUtc2VydmVyLWV4dGVuc2lvbi1hcmd1bWVudHMKICAgIHZvbHVtZXM6CiAgICAgIC0gY29kZS1zZXJ2ZXItY29uZmlnOi9jb25maWcKICAgICAgLSB3b3Jrc3BhY2U6L3dvcmtzcGFjZQogICAgICAjIEluamV0YSBhcyBjb25maWd1cmHDp8O1ZXMgZG8gVlMgQ29kZSAoc2hhcmVkU2VjcmV0IGV0Yy4pCiAgICAgIC0gLi9jb2RlLXNlcnZlci9zZXR0aW5ncy5qc29uOi9jb25maWcvZGF0YS9Vc2VyL3NldHRpbmdzLmpzb246cm8KICAgIHBvcnRzOgogICAgICAtICI4NDQzOjg0NDMiCiAgICBuZXR3b3JrczoKICAgICAgLSBtY3AtaW50ZXJuYWwKICAgIHJlc3RhcnQ6IHVubGVzcy1zdG9wcGVkCiAgICBkZXBlbmRzX29uOgogICAgICAtIG1jcC1zZXJ2ZXIKCiAgIyDilIDilIAgTUNQIFNlcnZlciDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKICBtY3Atc2VydmVyOgogICAgYnVpbGQ6CiAgICAgIGNvbnRleHQ6IC4vc2VydmVyCiAgICAgIGRvY2tlcmZpbGU6IERvY2tlcmZpbGUKICAgIGNvbnRhaW5lcl9uYW1lOiBtY3Atc2VydmVyCiAgICBlbnZpcm9ubWVudDoKICAgICAgLSBOT0RFX0VOVj1wcm9kdWN0aW9uCiAgICAgIC0gTUNQX1BPUlQ9NzMzNwogICAgICAtIE1DUF9IT1NUPTAuMC4wLjAgICAgICAgICAgIyBEb2NrZXI6IGVzY3V0YSBlbSB0b2RhcyBhcyBpbnRlcmZhY2VzIGRvIGNvbnRhaW5lcgogICAgICAtIEJSSURHRV9QT1JUPTcxMDAKICAgICAgLSBCUklER0VfSE9TVD0wLjAuMC4wICAgICAgICMgRG9ja2VyOiBjb2RlLXNlcnZlciBzZSBjb25lY3RhIHZpYSByZWRlIGludGVybmEKICAgICAgLSBNQ1BfVE9LRU49JHtNQ1BfVE9LRU59CiAgICAgIC0gQlJJREdFX1NFQ1JFVD0ke0JSSURHRV9TRUNSRVR9CiAgICB2b2x1bWVzOgogICAgICAtIHdvcmtzcGFjZTovd29ya3NwYWNlICAgICAgIyBNZXNtbyB3b3Jrc3BhY2UgZG8gY29kZS1zZXJ2ZXIKICAgIHBvcnRzOgogICAgICAtICI3MzM3OjczMzciICAgICAgICAgICAgICAgIyBFeHBvc3RvIGxvY2FsbWVudGUgcGFyYSB0ZXN0ZXMKICAgIG5ldHdvcmtzOgogICAgICAtIG1jcC1pbnRlcm5hbAogICAgcmVzdGFydDogdW5sZXNzLXN0b3BwZWQKICAgIGhlYWx0aGNoZWNrOgogICAgICB0ZXN0OiBbIkNNRCIsICJ3Z2V0IiwgIi1xTy0iLCAiaHR0cDovL2xvY2FsaG9zdDo3MzM3L3BpbmciXQogICAgICBpbnRlcnZhbDogMzBzCiAgICAgIHRpbWVvdXQ6IDVzCiAgICAgIHJldHJpZXM6IDMKCm5ldHdvcmtzOgogIG1jcC1pbnRlcm5hbDoKICAgIGRyaXZlcjogYnJpZGdlCgp2b2x1bWVzOgogIGNvZGUtc2VydmVyLWNvbmZpZzoKICB3b3Jrc3BhY2U6Cg==
+# ============================================================
+# docker-compose.yml — DESENVOLVIMENTO / TESTE LOCAL
+# Para subir localmente e testar antes de jogar no Swarm.
+#
+# Uso:
+#   cp .env.example .env  # preencha os valores
+#   docker compose up -d
+#   docker compose logs -f
+#
+# Acesso:
+#   code-server:  http://localhost:8443  (senha: CODE_SERVER_PASSWORD do .env)
+#   MCP Server:   http://localhost:7337/ping
+# ============================================================
+
+services:
+
+  # ── code-server (VS Code no browser) ──────────────────────
+  code-server:
+    image: lscr.io/linuxserver/code-server:latest
+    container_name: code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - PASSWORD=${CODE_SERVER_PASSWORD}
+      - DEFAULT_WORKSPACE=/workspace
+      - DOCKER_MODS=linuxserver/mods:code-server-extension-arguments
+    volumes:
+      - code-server-config:/config
+      - workspace:/workspace
+      - ./code-server/settings.json:/config/data/User/settings.json:ro
+    ports:
+      - "8443:8443"
+    networks:
+      - mcp-internal
+    restart: unless-stopped
+    depends_on:
+      - mcp-server
+
+  # ── MCP Server ─────────────────────────────────────────────
+  mcp-server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: mcp-server
+    environment:
+      - NODE_ENV=production
+      - MCP_PORT=7337
+      - MCP_HOST=0.0.0.0
+      - BRIDGE_PORT=7100
+      - BRIDGE_HOST=0.0.0.0
+      - MCP_TOKEN=${MCP_TOKEN}
+      - BRIDGE_SECRET=${BRIDGE_SECRET}
+    volumes:
+      - workspace:/workspace
+    ports:
+      - "7337:7337"
+    networks:
+      - mcp-internal
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:7337/ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  mcp-internal:
+    driver: bridge
+
+volumes:
+  code-server-config:
+  workspace:

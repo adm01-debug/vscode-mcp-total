@@ -1,1 +1,35 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogZ2VuZXJhdGUtc2VjcmV0cy5qcyDigJQgR2VyYSBzZWdyZWRvcyBjcmlwdG9ncmFmaWNhbWVudGUgc2VndXJvcwogKi8KCmNvbnN0IGNyeXB0byA9IHJlcXVpcmUoJ2NyeXB0bycpOwoKY29uc3QgYXJnID0gcHJvY2Vzcy5hcmd2WzJdIHx8ICcnOwoKY29uc3QgTUNQX1RPS0VOICAgICAgICAgICAgPSBjcnlwdG8ucmFuZG9tQnl0ZXMoNDgpLnRvU3RyaW5nKCdoZXgnKTsgICAgICAgIC8vIDk2IGNoYXJzCmNvbnN0IEJSSURHRV9TRUNSRVQgICAgICAgID0gY3J5cHRvLnJhbmRvbUJ5dGVzKDMyKS50b1N0cmluZygnaGV4Jyk7ICAgICAgICAvLyA2NCBjaGFycwpjb25zdCBDT0RFX1NFUlZFUl9QQVNTV09SRCA9IGNyeXB0by5yYW5kb21CeXRlcygxMikudG9TdHJpbmcoJ2Jhc2U2NHVybCcpOyAgLy8gfjE2IGNoYXJzCgpzd2l0Y2ggKGFyZykgewogIGNhc2UgJy0tdG9rZW4nOgogICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoTUNQX1RPS0VOKTsKICAgIGJyZWFrOwogIGNhc2UgJy0tYnJpZGdlJzoKICAgIHByb2Nlc3Muc3Rkb3V0LndyaXRlKEJSSURHRV9TRUNSRVQpOwogICAgYnJlYWs7CiAgY2FzZSAnLS1wYXNzJzoKICAgIHByb2Nlc3Muc3Rkb3V0LndyaXRlKENPREVfU0VSVkVSX1BBU1NXT1JEKTsKICAgIGJyZWFrOwogIGNhc2UgJy0tZW52JzoKICAgIGNvbnNvbGUubG9nKGBNQ1BfVE9LRU49JHtNQ1BfVE9LRU59YCk7CiAgICBjb25zb2xlLmxvZyhgQlJJREdFX1NFQ1JFVD0ke0JSSURHRV9TRUNSRVR9YCk7CiAgICBjb25zb2xlLmxvZyhgQ09ERV9TRVJWRVJfUEFTU1dPUkQ9JHtDT0RFX1NFUlZFUl9QQVNTV09SRH1gKTsKICAgIGJyZWFrOwogIGRlZmF1bHQ6CiAgICBjb25zb2xlLmxvZygnTUNQX1RPS0VOOicsIE1DUF9UT0tFTik7CiAgICBjb25zb2xlLmxvZygnQlJJREdFX1NFQ1JFVDonLCBCUklER0VfU0VDUkVUKTsKICAgIGNvbnNvbGUubG9nKCdDT0RFX1NFUlZFUl9QQVNTV09SRDonLCBDT0RFX1NFUlZFUl9QQVNTV09SRCk7CiAgICBjb25zb2xlLmxvZygnXG5VUkw6IGh0dHBzOi8vU0VVX0RPTUlOSU8vbWNwLycgKyBNQ1BfVE9LRU4pOwogICAgYnJlYWs7Cn0K
+#!/usr/bin/env node
+/**
+ * generate-secrets.js — Gera segredos criptograficamente seguros
+ */
+
+const crypto = require('crypto');
+
+const arg = process.argv[2] || '';
+
+const MCP_TOKEN            = crypto.randomBytes(48).toString('hex');
+const BRIDGE_SECRET        = crypto.randomBytes(32).toString('hex');
+const CODE_SERVER_PASSWORD = crypto.randomBytes(12).toString('base64url');
+
+switch (arg) {
+  case '--token':
+    process.stdout.write(MCP_TOKEN);
+    break;
+  case '--bridge':
+    process.stdout.write(BRIDGE_SECRET);
+    break;
+  case '--pass':
+    process.stdout.write(CODE_SERVER_PASSWORD);
+    break;
+  case '--env':
+    console.log(`MCP_TOKEN=${MCP_TOKEN}`);
+    console.log(`BRIDGE_SECRET=${BRIDGE_SECRET}`);
+    console.log(`CODE_SERVER_PASSWORD=${CODE_SERVER_PASSWORD}`);
+    break;
+  default:
+    console.log('MCP_TOKEN:', MCP_TOKEN);
+    console.log('BRIDGE_SECRET:', BRIDGE_SECRET);
+    console.log('CODE_SERVER_PASSWORD:', CODE_SERVER_PASSWORD);
+    console.log('\nURL: https://SEU_DOMINIO/mcp/' + MCP_TOKEN);
+    break;
+}

@@ -1,1 +1,18 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIEluc3RhbGEgYSBleHRlbnPDo28gVlMgQ29kZSBNQ1AgQnJpZGdlIG5vIGNvZGUtc2VydmVyCgpzZXQgLWV1byBwaXBlZmFpbAoKQlJJREdFX1NFQ1JFVD0iJHsxOi0ke0JSSURHRV9TRUNSRVQ6LX19IgpWU0lYX1BBVEg9IiR7MjotL3dvcmtzcGFjZS92c2NvZGUtbWNwLWJyaWRnZS0xLjAuMC52c2l4fSIKQ09OVEFJTkVSX05BTUU9IiR7Q09OVEFJTkVSX05BTUU6LXZzY29kZS1tY3BfY29kZS1zZXJ2ZXIuMX0iCgppZiBbWyAteiAiJEJSSURHRV9TRUNSRVQiIF1dOyB0aGVuCiAgZWNobyAiQlJJREdFX1NFQ1JFVCBuw6NvIGZvcm5lY2lkby4gVXNvOiAkMCA8QlJJREdFX1NFQ1JFVD4iCiAgZXhpdCAxCmZpCgpkb2NrZXIgZXhlYyAiJENPTlRBSU5FUl9OQU1FIiBcCiAgL3Vzci9iaW4vY29kZS1zZXJ2ZXIgLS1pbnN0YWxsLWV4dGVuc2lvbiAiJFZTSVhfUEFUSCIKCmVjaG8gIkV4dGVuc8OjbyBpbnN0YWxhZGEgY29tIHN1Y2Vzc28uIgo=
+#!/usr/bin/env bash
+# Instala a extensão VS Code MCP Bridge no code-server
+
+set -euo pipefail
+
+BRIDGE_SECRET="${1:-${BRIDGE_SECRET:-}}"
+VSIX_PATH="${2:-/workspace/vscode-mcp-bridge-1.0.0.vsix}"
+CONTAINER_NAME="${CONTAINER_NAME:-vscode-mcp_code-server.1}"
+
+if [[ -z "$BRIDGE_SECRET" ]]; then
+  echo "BRIDGE_SECRET não fornecido. Uso: $0 <BRIDGE_SECRET>"
+  exit 1
+fi
+
+docker exec "$CONTAINER_NAME" \
+  /usr/bin/code-server --install-extension "$VSIX_PATH"
+
+echo "Extensão instalada com sucesso."

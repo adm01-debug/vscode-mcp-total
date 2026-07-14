@@ -1,1 +1,16 @@
-ewogICJ2c2NvZGVNY3AuZW5hYmxlIjogdHJ1ZSwKICAidnNjb2RlTWNwLnNlcnZlckhvc3QiOiAibWNwLXNlcnZlciIsCiAgInZzY29kZU1jcC5wb3J0IjogNzEwMCwKICAidnNjb2RlTWNwLnNoYXJlZFNlY3JldCI6ICJfX0JSSURHRV9TRUNSRVRfXyIsCiAgInZzY29kZU1jcC5yZXF1aXJlQXBwcm92YWwiOiBmYWxzZSwKICAidnNjb2RlTWNwLmxvZ0xldmVsIjogImluZm8iLAoKICAiZWRpdG9yLmZvbnRTaXplIjogMTQsCiAgImVkaXRvci50YWJTaXplIjogMiwKICAiZWRpdG9yLmZvcm1hdE9uU2F2ZSI6IGZhbHNlLAogICJ0ZXJtaW5hbC5pbnRlZ3JhdGVkLmZvbnRTaXplIjogMTMsCiAgImZpbGVzLmF1dG9TYXZlIjogIm9mZiIsCiAgImdpdC5hdXRvZmV0Y2giOiB0cnVlLAogICJ3b3JrYmVuY2guY29sb3JUaGVtZSI6ICJEZWZhdWx0IERhcmsgTW9kZXJuIgp9Cg==
+{
+  "vscodeMcp.enable": true,
+  "vscodeMcp.bridgeHost": "mcp-server",
+  "vscodeMcp.bridgePort": 7100,
+  "vscodeMcp.bridgeSecret": "__BRIDGE_SECRET__",
+  "vscodeMcp.requireApproval": false,
+  "vscodeMcp.logLevel": "info",
+
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "terminal.integrated.fontSize": 13,
+  "files.autoSave": "off",
+  "git.autofetch": true,
+  "workbench.colorTheme": "Default Dark Modern"
+}

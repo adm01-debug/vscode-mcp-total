@@ -1,1 +1,34 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQojIGRldi11cC5zaCDigJQgU3ViaXIgYW1iaWVudGUgbG9jYWwgcGFyYSB0ZXN0ZXMgKGRvY2tlciBjb21wb3NlKQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKc2V0IC1ldW8gcGlwZWZhaWwKClNDUklQVF9ESVI9IiQoY2QgIiQoZGlybmFtZSAiJHtCQVNIX1NPVVJDRVswXX0iKSIgJiYgcHdkKSIKUFJPSkVDVF9ESVI9IiQoZGlybmFtZSAiJFNDUklQVF9ESVIiKSIKCmNkICIkUFJPSkVDVF9ESVIiCgppZiBbWyAhIC1mICIuZW52IiBdXTsgdGhlbgogIGNwIC5lbnYuZXhhbXBsZSAuZW52CiAgZWNobyAiRWRpdGUgLmVudiBjb20gc2V1cyB2YWxvcmVzIGFudGVzIGRlIGNvbnRpbnVhciIKICBleGl0IDEKZmkKCnNvdXJjZSAuZW52CgpzZWQgInMvX19CUklER0VfU0VDUkVUX18vJEJSSURHRV9TRUNSRVQvZyIgXAogIGNvZGUtc2VydmVyL3NldHRpbmdzLmpzb24udGVtcGxhdGUgXAogID4gY29kZS1zZXJ2ZXIvc2V0dGluZ3MuanNvbgoKaWYgW1sgISAtZiAiZXh0ZW5zaW9uL2Rpc3QvZXh0ZW5zaW9uLmpzIiBdXTsgdGhlbgogIGNkIGV4dGVuc2lvbiAmJiBucG0gaW5zdGFsbCAmJiBucG0gcnVuIGNvbXBpbGUKICBjZCAiJFBST0pFQ1RfRElSIgpmaQoKZG9ja2VyIGNvbXBvc2UgdXAgLWQgLS1idWlsZAoKZWNobyAiQW1iaWVudGUgbG9jYWwgcm9kYW5kbyEiCmVjaG8gImNvZGUtc2VydmVyOiBodHRwOi8vbG9jYWxob3N0Ojg0NDMiCmVjaG8gIk1DUCBTZXJ2ZXI6ICBodHRwOi8vbG9jYWxob3N0OjczMzcvcGluZyIK
+#!/usr/bin/env bash
+# ============================================================
+# dev-up.sh — Subir ambiente local para testes (docker compose)
+# ============================================================
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+cd "$PROJECT_DIR"
+
+if [[ ! -f ".env" ]]; then
+  cp .env.example .env
+  echo "Edite .env com seus valores antes de continuar"
+  exit 1
+fi
+
+source .env
+
+sed "s/__BRIDGE_SECRET__/$BRIDGE_SECRET/g" \
+  code-server/settings.json.template \
+  > code-server/settings.json
+
+if [[ ! -f "extension/dist/extension.js" ]]; then
+  cd extension && npm install && npm run compile
+  cd "$PROJECT_DIR"
+fi
+
+docker compose up -d --build
+
+echo "Ambiente local rodando!"
+echo "code-server: http://localhost:8443"
+echo "MCP Server:  http://localhost:7337/ping"
