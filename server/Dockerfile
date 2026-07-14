@@ -14,8 +14,8 @@ RUN npm run build
 # ── Stage 2: Runtime ───────────────────────────────────────────────────────────
 FROM node:20-alpine AS runtime
 
-# Install ripgrep for text search (used by extension's files.search handler)
-RUN apk add --no-cache ripgrep
+# Install ripgrep + curl for health check
+RUN apk add --no-cache ripgrep curl
 
 WORKDIR /app
 
@@ -31,8 +31,8 @@ USER mcp
 
 EXPOSE 7337
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-  CMD wget -qO- http://localhost:7337/ping | grep -q '"ok":true' || exit 1
+# Health check using curl (available for mcp user)
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s --retries=5 \
+  CMD curl -sf http://localhost:7337/ping || exit 1
 
 CMD ["node", "dist/index.js"]
