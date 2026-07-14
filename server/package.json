@@ -1,1 +1,29 @@
-ewogICJuYW1lIjogInZzY29kZS1tY3AtdG90YWwtc2VydmVyIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIk1DUCBzZXJ2ZXIgZm9yIHRvdGFsIFZTIENvZGUgY29udHJvbCB2aWEgQ2xvdWRmbGFyZSBUdW5uZWwiLAogICJtYWluIjogImRpc3QvaW5kZXguanMiLAogICJzY3JpcHRzIjogewogICAgImJ1aWxkIjogInRzYyIsCiAgICAic3RhcnQiOiAibm9kZSBkaXN0L2luZGV4LmpzIiwKICAgICJkZXYiOiAidHN4IHNyYy9pbmRleC50cyIsCiAgICAid2F0Y2giOiAidHN4IHdhdGNoIHNyYy9pbmRleC50cyIKICB9LAogICJkZXBlbmRlbmNpZXMiOiB7CiAgICAiQG1vZGVsY29udGV4dHByb3RvY29sL3NkayI6ICJeMS4xMi4wIiwKICAgICJleHByZXNzIjogIl40LjIxLjAiLAogICAgInpvZCI6ICJeMy4yMy4wIiwKICAgICJ3cyI6ICJeOC4xOC4wIiwKICAgICJkb3RlbnYiOiAiXjE2LjQuMCIKICB9LAogICJkZXZEZXBlbmRlbmNpZXMiOiB7CiAgICAidHlwZXNjcmlwdCI6ICJeNS43LjAiLAogICAgIkB0eXBlcy9leHByZXNzIjogIl40LjE3LjIxIiwKICAgICJAdHlwZXMvbm9kZSI6ICJeMjIuMC4wIiwKICAgICJAdHlwZXMvd3MiOiAiXjguNS4xMyIsCiAgICAidHN4IjogIl40LjE5LjAiCiAgfSwKICAiZW5naW5lcyI6IHsKICAgICJub2RlIjogIj49MTguMC4wIgogIH0KfQo=
+{
+  "name": "vscode-mcp-total-server",
+  "version": "1.0.0",
+  "description": "MCP server for total VS Code control via Cloudflare Tunnel",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "watch": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^4.21.0",
+    "zod": "^3.23.0",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
