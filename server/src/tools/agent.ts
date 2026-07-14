@@ -1,1 +1,61 @@
-LyoqCiAqIHRvb2xzL2FnZW50LnRzIOKAkyBEZWxlZ2HDp8OjbyBwYXJhIENsYXVkZSBDb2RlIENMSSBubyBjb2RlLXNlcnZlcgogKi8KaW1wb3J0IHsgTWNwU2VydmVyIH0gZnJvbSAnQG1vZGVsY29udGV4dHByb3RvY29sL3Nkay9zZXJ2ZXIvbWNwLmpzJzsKaW1wb3J0IHsgeiB9IGZyb20gJ3pvZCc7CmltcG9ydCB7IGJyaWRnZSB9IGZyb20gJy4uL2JyaWRnZS1jbGllbnQuanMnOwoKZXhwb3J0IGZ1bmN0aW9uIHJlZ2lzdGVyQWdlbnRUb29scyhzZXJ2ZXI6IE1jcFNlcnZlcik6IHZvaWQgewoKICBzZXJ2ZXIudG9vbCgKICAgICd2c2NvZGVfZGVsZWdhdGVfdG9fYWdlbnQnLAogICAgJ0RlbGVnYSB1bWEgdGFyZWZhIGNvbXBsZXhhIGFvIENsYXVkZSBDb2RlIENMSSByb2RhbmRvIG5vIGNvZGUtc2VydmVyLiBJZGVhbCBwYXJhIHRhcmVmYXMgbXVsdGktZXRhcGFzIHF1ZSBleGlnZW0gY29udGV4dG8gY29tcGxldG8gZG8gY29kZWJhc2UuJywKICAgIHsKICAgICAgdGFzazogei5zdHJpbmcoKS5kZXNjcmliZSgnRGVzY3Jpw6fDo28gZGEgdGFyZWZhIHBhcmEgbyBhZ2VudGUgKHNlamEgZGV0YWxoYWRvOiBpbmNsdWEgY29udGV4dG8sIGFycXVpdm9zIGVudm9sdmlkb3MgZSByZXN1bHRhZG8gZXNwZXJhZG8pJyksCiAgICAgIHdvcmtzcGFjZUZvbGRlcjogei5zdHJpbmcoKS5vcHRpb25hbCgpLmRlc2NyaWJlKCdQYXN0YSBkbyB3b3Jrc3BhY2UgKG9taXRpciA9IHJhaXogZG8gd29ya3NwYWNlIGF0aXZvKScpLAogICAgICBzZXNzaW9uSWQ6IHouc3RyaW5nKCkub3B0aW9uYWwoKS5kZXNjcmliZSgnSUQgZGUgc2Vzc8OjbyBwYXJhIGNvbnRpbnVhciB1bWEgdGFyZWZhIGV4aXN0ZW50ZScpLAogICAgICBtYXhUdXJuczogei5udW1iZXIoKS5vcHRpb25hbCgpLmRlZmF1bHQoMTApLmRlc2NyaWJlKCdOw7ptZXJvIG3DoXhpbW8gZGUgdHVybm9zIGRvIGFnZW50ZScpLAogICAgfSwKICAgIGFzeW5jICh7IHRhc2ssIHdvcmtzcGFjZUZvbGRlciwgc2Vzc2lvbklkLCBtYXhUdXJucyB9KSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJpZGdlLmNhbGwoJ2FnZW50LmRlbGVnYXRlJywgeyB0YXNrLCB3b3Jrc3BhY2VGb2xkZXIsIHNlc3Npb25JZCwgbWF4VHVybnMgfSk7CiAgICAgICAgcmV0dXJuIHsgY29udGVudDogW3sgdHlwZTogJ3RleHQnLCB0ZXh0OiBKU09OLnN0cmluZ2lmeShyZXN1bHQsIG51bGwsIDIpIH1dIH07CiAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogYEVycm86ICR7KGVyciBhcyBFcnJvcikubWVzc2FnZX1gIH1dLCBpc0Vycm9yOiB0cnVlIH07CiAgICAgIH0KICAgIH0KICApOwoKICBzZXJ2ZXIudG9vbCgKICAgICd2c2NvZGVfYWdlbnRfY29udGludWUnLAogICAgJ0VudmlhIHVtYSBtZW5zYWdlbSBkZSBhY29tcGFuaGFtZW50byBwYXJhIHVtYSBzZXNzw6NvIGRlIGFnZW50ZSBlbSBhbmRhbWVudG8uJywKICAgIHsKICAgICAgc2Vzc2lvbklkOiB6LnN0cmluZygpLmRlc2NyaWJlKCdJRCBkYSBzZXNzw6NvIGRvIGFnZW50ZScpLAogICAgICBtZXNzYWdlOiB6LnN0cmluZygpLmRlc2NyaWJlKCdNZW5zYWdlbSBkZSBjb250aW51YcOnw6NvIChhcHJvdmHDp8OjbywgY29ycmXDp8OjbywgaW5zdHJ1w6fDo28gYWRpY2lvbmFsKScpLAogICAgfSwKICAgIGFzeW5jICh7IHNlc3Npb25JZCwgbWVzc2FnZSB9KSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJpZGdlLmNhbGwoJ2FnZW50LmNvbnRpbnVlJywgeyBzZXNzaW9uSWQsIG1lc3NhZ2UgfSk7CiAgICAgICAgcmV0dXJuIHsgY29udGVudDogW3sgdHlwZTogJ3RleHQnLCB0ZXh0OiBKU09OLnN0cmluZ2lmeShyZXN1bHQsIG51bGwsIDIpIH1dIH07CiAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogYEVycm86ICR7KGVyciBhcyBFcnJvcikubWVzc2FnZX1gIH1dLCBpc0Vycm9yOiB0cnVlIH07CiAgICAgIH0KICAgIH0KICApOwoKICBzZXJ2ZXIudG9vbCgKICAgICd2c2NvZGVfYWdlbnRfc3RhdHVzJywKICAgICdWZXJpZmljYSBvIHN0YXR1cyBkZSB1bWEgc2Vzc8OjbyBkZSBhZ2VudGU6IGVtIGV4ZWN1w6fDo28sIGFndWFyZGFuZG8gaW5wdXQsIGNvbmNsdcOtZG8gb3UgZXJyby4nLAogICAgewogICAgICBzZXNzaW9uSWQ6IHouc3RyaW5nKCkub3B0aW9uYWwoKS5kZXNjcmliZSgnSUQgZGEgc2Vzc8OjbyAob21pdGlyID0gw7psdGltYSBzZXNzw6NvIGF0aXZhKScpLAogICAgfSwKICAgIGFzeW5jICh7IHNlc3Npb25JZCB9KSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJpZGdlLmNhbGwoJ2FnZW50LnN0YXR1cycsIHsgc2Vzc2lvbklkIH0pOwogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogSlNPTi5zdHJpbmdpZnkocmVzdWx0LCBudWxsLCAyKSB9XSB9OwogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICByZXR1cm4geyBjb250ZW50OiBbeyB0eXBlOiAndGV4dCcsIHRleHQ6IGBFcnJvOiAkeyhlcnIgYXMgRXJyb3IpLm1lc3NhZ2V9YCB9XSwgaXNFcnJvcjogdHJ1ZSB9OwogICAgICB9CiAgICB9CiAgKTsKfQo=
+/**
+ * tools/agent.ts – Delegação para Claude Code CLI no code-server
+ */
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { z } from 'zod';
+import { bridge } from '../bridge-client.js';
+
+export function registerAgentTools(server: McpServer): void {
+
+  server.tool(
+    'vscode_delegate_to_agent',
+    'Delega uma tarefa complexa ao Claude Code CLI rodando no code-server.',
+    {
+      task: z.string().describe('Descrição da tarefa para o agente'),
+      workspaceFolder: z.string().optional().describe('Pasta do workspace'),
+      sessionId: z.string().optional().describe('ID de sessão para continuar tarefa existente'),
+      maxTurns: z.number().optional().default(10).describe('Número máximo de turnos'),
+    },
+    async ({ task, workspaceFolder, sessionId, maxTurns }) => {
+      try {
+        const result = await bridge.call('agent.delegate', { task, workspaceFolder, sessionId, maxTurns });
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+
+  server.tool(
+    'vscode_agent_continue',
+    'Envia mensagem de acompanhamento para sessão de agente em andamento.',
+    {
+      sessionId: z.string().describe('ID da sessão do agente'),
+      message: z.string().describe('Mensagem de continuação'),
+    },
+    async ({ sessionId, message }) => {
+      try {
+        const result = await bridge.call('agent.continue', { sessionId, message });
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+
+  server.tool(
+    'vscode_agent_status',
+    'Verifica o status de uma sessão de agente.',
+    {
+      sessionId: z.string().optional().describe('ID da sessão'),
+    },
+    async ({ sessionId }) => {
+      try {
+        const result = await bridge.call('agent.status', { sessionId });
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+}

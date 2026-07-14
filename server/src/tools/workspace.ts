@@ -1,1 +1,56 @@
-LyoqCiAqIHRvb2xzL3dvcmtzcGFjZS50cyDigJMgSW5mb3JtYcOnw7VlcyBkbyB3b3Jrc3BhY2UgZSBlc3RhZG8gZ2VyYWwgZG8gVlMgQ29kZQogKiBDT1JSRcOHw4NPOiB1c2EgJ3dvcmtzcGFjZS50YWJzJyAobsOjbyAndGFicy5saXN0JykgZSAnd29ya3NwYWNlLnN0YXR1cycgKG7Do28gJ3N0YXR1cy5nZXQnKQogKi8KaW1wb3J0IHsgTWNwU2VydmVyIH0gZnJvbSAnQG1vZGVsY29udGV4dHByb3RvY29sL3Nkay9zZXJ2ZXIvbWNwLmpzJzsKaW1wb3J0IHsgeiB9IGZyb20gJ3pvZCc7CmltcG9ydCB7IGJyaWRnZSB9IGZyb20gJy4uL2JyaWRnZS1jbGllbnQuanMnOwoKZXhwb3J0IGZ1bmN0aW9uIHJlZ2lzdGVyV29ya3NwYWNlVG9vbHMoc2VydmVyOiBNY3BTZXJ2ZXIpOiB2b2lkIHsKCiAgc2VydmVyLnRvb2woCiAgICAndnNjb2RlX2xpc3Rfd29ya3NwYWNlcycsCiAgICAnTGlzdGEgdG9kb3Mgb3Mgd29ya3NwYWNlcyBhYmVydG9zIG5hcyBpbnN0w6JuY2lhcyBjb25lY3RhZGFzIGRvIFZTIENvZGUuJywKICAgIHt9LAogICAgYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGJyaWRnZS5jYWxsKCd3b3Jrc3BhY2UubGlzdFdvcmtzcGFjZXMnLCB7fSk7CiAgICAgICAgcmV0dXJuIHsgY29udGVudDogW3sgdHlwZTogJ3RleHQnLCB0ZXh0OiBKU09OLnN0cmluZ2lmeShyZXN1bHQsIG51bGwsIDIpIH1dIH07CiAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogYEVycm86ICR7KGVyciBhcyBFcnJvcikubWVzc2FnZX1gIH1dLCBpc0Vycm9yOiB0cnVlIH07CiAgICAgIH0KICAgIH0KICApOwoKICBzZXJ2ZXIudG9vbCgKICAgICd2c2NvZGVfbGlzdF9vcGVuX3RhYnMnLAogICAgJ0xpc3RhIHRvZGFzIGFzIHRhYnMgKGFycXVpdm9zKSBhYmVydGFzIG5vIFZTIENvZGUgY29tIHNldSBlc3RhZG8gKGF0aXZvLCBkaXJ0eSwgcHJldmlldykuJywKICAgIHsKICAgICAgd29ya3NwYWNlRm9sZGVyOiB6LnN0cmluZygpLm9wdGlvbmFsKCkuZGVzY3JpYmUoJ0ZpbHRyYXIgcG9yIHBhc3RhIGRlIHdvcmtzcGFjZScpLAogICAgfSwKICAgIGFzeW5jICh7IHdvcmtzcGFjZUZvbGRlciB9KSA9PiB7CiAgICAgIHRyeSB7CiAgICAgICAgLy8gQ09SUkXDh8ODTzogbcOpdG9kbyBjb3JyZXRvIMOpICd3b3Jrc3BhY2UudGFicycgKG7Do28gJ3RhYnMubGlzdCcpCiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYnJpZGdlLmNhbGwoJ3dvcmtzcGFjZS50YWJzJywgeyB3b3Jrc3BhY2VGb2xkZXIgfSk7CiAgICAgICAgcmV0dXJuIHsgY29udGVudDogW3sgdHlwZTogJ3RleHQnLCB0ZXh0OiBKU09OLnN0cmluZ2lmeShyZXN1bHQsIG51bGwsIDIpIH1dIH07CiAgICAgIH0gY2F0Y2ggKGVycikgewogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogYEVycm86ICR7KGVyciBhcyBFcnJvcikubWVzc2FnZX1gIH1dLCBpc0Vycm9yOiB0cnVlIH07CiAgICAgIH0KICAgIH0KICApOwoKICBzZXJ2ZXIudG9vbCgKICAgICd2c2NvZGVfZ2V0X3N0YXR1cycsCiAgICAnUmV0b3JuYSB1bSBzbmFwc2hvdCBjb21wbGV0byBkbyBlc3RhZG8gYXR1YWwgZG8gVlMgQ29kZTogYXJxdWl2byBhdGl2bywgY3Vyc29yLCBzZWxlw6fDo28sIGxpbmd1YWdlbSwgaW5kZW50YcOnw6NvLCBnaXQgYnJhbmNoLicsCiAgICB7CiAgICAgIHdvcmtzcGFjZUZvbGRlcjogei5zdHJpbmcoKS5vcHRpb25hbCgpLmRlc2NyaWJlKCdXb3Jrc3BhY2UgZXNwZWPDrWZpY28gKG9taXRpciA9IGluc3TDom5jaWEgYXRpdmEpJyksCiAgICB9LAogICAgYXN5bmMgKHsgd29ya3NwYWNlRm9sZGVyIH0pID0+IHsKICAgICAgdHJ5IHsKICAgICAgICAvLyBDT1JSRcOHw4NPOiBtw6l0b2RvIGNvcnJldG8gw6kgJ3dvcmtzcGFjZS5zdGF0dXMnIChuw6NvICdzdGF0dXMuZ2V0JykKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBicmlkZ2UuY2FsbCgnd29ya3NwYWNlLnN0YXR1cycsIHsgd29ya3NwYWNlRm9sZGVyIH0pOwogICAgICAgIHJldHVybiB7IGNvbnRlbnQ6IFt7IHR5cGU6ICd0ZXh0JywgdGV4dDogSlNPTi5zdHJpbmdpZnkocmVzdWx0LCBudWxsLCAyKSB9XSB9OwogICAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgICByZXR1cm4geyBjb250ZW50OiBbeyB0eXBlOiAndGV4dCcsIHRleHQ6IGBFcnJvOiAkeyhlcnIgYXMgRXJyb3IpLm1lc3NhZ2V9YCB9XSwgaXNFcnJvcjogdHJ1ZSB9OwogICAgICB9CiAgICB9CiAgKTsKfQo=
+/**
+ * tools/workspace.ts – Informações do workspace e estado geral do VS Code
+ * CORREÇÃO: usa 'workspace.tabs' (não 'tabs.list') e 'workspace.status' (não 'status.get')
+ */
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { z } from 'zod';
+import { bridge } from '../bridge-client.js';
+
+export function registerWorkspaceTools(server: McpServer): void {
+
+  server.tool(
+    'vscode_list_workspaces',
+    'Lista todos os workspaces abertos nas instâncias conectadas do VS Code.',
+    {},
+    async () => {
+      try {
+        const result = await bridge.call('workspace.listWorkspaces', {});
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+
+  server.tool(
+    'vscode_list_open_tabs',
+    'Lista todas as tabs (arquivos) abertas no VS Code com seu estado (ativo, dirty, preview).',
+    {
+      workspaceFolder: z.string().optional().describe('Filtrar por pasta de workspace'),
+    },
+    async ({ workspaceFolder }) => {
+      try {
+        const result = await bridge.call('workspace.tabs', { workspaceFolder });
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+
+  server.tool(
+    'vscode_get_status',
+    'Retorna um snapshot completo do estado atual do VS Code: arquivo ativo, cursor, seleção, linguagem, indentação, git branch.',
+    {
+      workspaceFolder: z.string().optional().describe('Workspace específico (omitir = instância ativa)'),
+    },
+    async ({ workspaceFolder }) => {
+      try {
+        const result = await bridge.call('workspace.status', { workspaceFolder });
+        return { content: [{ type: 'text', text: JSON.stringify(result, null, 2) }] };
+      } catch (err) {
+        return { content: [{ type: 'text', text: `Erro: ${(err as Error).message}` }], isError: true };
+      }
+    }
+  );
+}
