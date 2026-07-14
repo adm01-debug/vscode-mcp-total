@@ -1,1 +1,134 @@
-LyoqCiAqIGluZGV4LnRzIOKAlCBNQ1AgU2VydmVyIGJvb3RzdHJhcAogKgogKiBBcmNoaXRlY3R1cmU6CiAqICAgQ2xhdWRlIOKGkiBIVFRQUyAoQ2xvdWRmbGFyZSBUdW5uZWwpIOKGkiBFeHByZXNzIChwb3J0IDczMzcpCiAqICAgICDihpIgdmFsaWRhdGVzIHRva2VuIGluIHBhdGgg4oaSIGNyZWF0ZXMgTWNwU2VydmVyIChzdGF0ZWxlc3MpCiAqICAgICDihpIgc2VydmVyIHRvb2xzIGNhbGwgYnJpZGdlLmNhbGwoKSDihpIgV2ViU29ja2V0IHRvIFZTIENvZGUgZXh0ZW5zaW9uCiAqCiAqIEF1dGg6IHRva2VuIGVtYmVkZGVkIGluIHBhdGggKC9tY3AvOnRva2VuKSDigJQgdGhlIFVSTCBJUyB0aGUgc2VjcmV0LgogKiBUcmFuc3BvcnQ6IFN0cmVhbWFibGUgSFRUUCwgc3RhdGVsZXNzIChzZXNzaW9uSWRHZW5lcmF0b3I6IHVuZGVmaW5lZCkuCiAqIElQQzogV2ViU29ja2V0IHNlcnZlciBvbiAxMjcuMC4wLjE6NzEwMCAoYnJpZGdlLWNsaWVudC50cykuCiAqLwoKaW1wb3J0ICdkb3RlbnYvY29uZmlnJzsKaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcyc7CmltcG9ydCB7IE1jcFNlcnZlciB9IGZyb20gJ0Btb2RlbGNvbnRleHRwcm90b2NvbC9zZGsvc2VydmVyL21jcC5qcyc7CmltcG9ydCB7IFN0cmVhbWFibGVIVFRQU2VydmVyVHJhbnNwb3J0IH0gZnJvbSAnQG1vZGVsY29udGV4dHByb3RvY29sL3Nkay9zZXJ2ZXIvc3RyZWFtYWJsZUh0dHAuanMnOwppbXBvcnQgeyBpc0luaXRpYWxpemVSZXF1ZXN0IH0gZnJvbSAnQG1vZGVsY29udGV4dHByb3RvY29sL3Nkay90eXBlcy5qcyc7CgppbXBvcnQgeyBpbml0QXV0aCwgYXV0aE1pZGRsZXdhcmUsIGdlbmVyYXRlVG9rZW4gfSBmcm9tICcuL2F1dGguanMnOwppbXBvcnQgeyBicmlkZ2UgfSBmcm9tICcuL2JyaWRnZS1jbGllbnQuanMnOwoKLy8gVG9vbCByZWdpc3RyYXJzCmltcG9ydCB7IHJlZ2lzdGVySGVhbHRoVG9vbHMgfSBmcm9tICcuL3Rvb2xzL2hlYWx0aC5qcyc7CmltcG9ydCB7IHJlZ2lzdGVyV29ya3NwYWNlVG9vbHMgfSBmcm9tICcuL3Rvb2xzL3dvcmtzcGFjZS5qcyc7CmltcG9ydCB7IHJlZ2lzdGVyRmlsZVRvb2xzIH0gZnJvbSAnLi90b29scy9maWxlcy5qcyc7CmltcG9ydCB7IHJlZ2lzdGVySW50ZWxsaWdlbmNlVG9vbHMgfSBmcm9tICcuL3Rvb2xzL2ludGVsbGlnZW5jZS5qcyc7CmltcG9ydCB7IHJlZ2lzdGVyVGVybWluYWxUb29scyB9IGZyb20gJy4vdG9vbHMvdGVybWluYWwuanMnOwppbXBvcnQgeyByZWdpc3RlclRhc2tUb29scyB9IGZyb20gJy4vdG9vbHMvdGFza3MuanMnOwppbXBvcnQgeyByZWdpc3RlckRlYnVnVG9vbHMgfSBmcm9tICcuL3Rvb2xzL2RlYnVnLmpzJzsKaW1wb3J0IHsgcmVnaXN0ZXJHaXRUb29scyB9IGZyb20gJy4vdG9vbHMvZ2l0LmpzJzsKaW1wb3J0IHsgcmVnaXN0ZXJUb2RvVG9vbHMgfSBmcm9tICcuL3Rvb2xzL3RvZG9zLmpzJzsKaW1wb3J0IHsgcmVnaXN0ZXJDb21tYW5kVG9vbHMgfSBmcm9tICcuL3Rvb2xzL2NvbW1hbmRzLmpzJzsKaW1wb3J0IHsgcmVnaXN0ZXJBZ2VudFRvb2xzIH0gZnJvbSAnLi90b29scy9hZ2VudC5qcyc7CgovLyDilIDilIDilIAgQ29uZmlndXJhdGlvbiDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmNvbnN0IE1DUF9QT1JUID0gcGFyc2VJbnQocHJvY2Vzcy5lbnYuTUNQX1BPUlQgPz8gJzczMzcnLCAxMCk7CmNvbnN0IEJSSURHRV9QT1JUID0gcGFyc2VJbnQocHJvY2Vzcy5lbnYuQlJJREdFX1BPUlQgPz8gJzcxMDAnLCAxMCk7CmNvbnN0IE1DUF9UT0tFTiA9IHByb2Nlc3MuZW52Lk1DUF9UT0tFTiA/PyAnJzsKY29uc3QgQlJJREdFX1NFQ1JFVCA9IHByb2Nlc3MuZW52LkJSSURHRV9TRUNSRVQgPz8gJyc7CmNvbnN0IE5PREVfRU5WID0gcHJvY2Vzcy5lbnYuTk9ERV9FTlYgPz8gJ3Byb2R1Y3Rpb24nOwoKLy8gQlJJREdFX0hPU1QgY29udHJvbHMgd2hlcmUgdGhlIFdlYlNvY2tldCBicmlkZ2UgbGlzdGVuczoKLy8gICAxMjcuMC4wLjEgPSBsb2NhbCBtb2RlIChXaW5kb3dzIFBDLCBkZWZhdWx0KQovLyAgIDAuMC4wLjAgICA9IERvY2tlciBtb2RlIChpbnRlcm5hbCBjb250YWluZXIgbmV0d29yaywgbm90IHB1Ymxpc2hlZCBleHRlcm5hbGx5KQpjb25zdCBCUklER0VfSE9TVCA9IHByb2Nlc3MuZW52LkJSSURHRV9IT1NUID8/ICcxMjcuMC4wLjEnOwoKLy8gTUNQX0hPU1QgY29udHJvbHMgd2hlcmUgRXhwcmVzcyBsaXN0ZW5zOgovLyAgIDEyNy4wLjAuMSA9IGxvY2FsIG1vZGUgKGJlaGluZCBjbG91ZGZsYXJlZCkKLy8gICAwLjAuMC4wICAgPSBEb2NrZXIgbW9kZSAoYmVoaW5kIFRyYWVmaWspCmNvbnN0IE1DUF9IT1NUID0gcHJvY2Vzcy5lbnYuTUNQX0hPU1QgPz8gJzEyNy4wLjAuMSc7CgovLyDilIDilIDilIAgU3RhcnR1cCB2YWxpZGF0aW9uIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKaWYgKCFNQ1BfVE9LRU4pIHsKICBjb25zdCBzdWdnZXN0aW9uID0gZ2VuZXJhdGVUb2tlbigpOwogIGNvbnNvbGUuZXJyb3IoJ+KdjCBNQ1BfVE9LRU4gbsOjbyBjb25maWd1cmFkbyEnKTsKICBjb25zb2xlLmVycm9yKCcnKTsKICBjb25zb2xlLmVycm9yKCdDcmllIHVtIGFycXVpdm8gLmVudiBuYSBwYXN0YSBzZXJ2ZXIvIGNvbTonKTsKICBjb25zb2xlLmVycm9yKGBNQ1BfVE9LRU49JHtzdWdnZXN0aW9ufWApOwogIGNvbnNvbGUuZXJyb3IoJycpOwogIGNvbnNvbGUuZXJyb3IoJ05VTkNBIGNvbXBhcnRpbGhlIG91IGNvbWl0ZSBlc3RlIHRva2VuLicpOwogIHByb2Nlc3MuZXhpdCgxKTsKfQoKaWYgKCFCUklER0VfU0VDUkVUKSB7CiAgY29uc3Qgc3VnZ2VzdGlvbiA9IGdlbmVyYXRlVG9rZW4oKS5zbGljZSgwLCAzMik7CiAgY29uc29sZS5lcnJvcign4p2MIEJSSURHRV9TRUNSRVQgbsOjbyBjb25maWd1cmFkbyEnKTsKICBjb25zb2xlLmVycm9yKCcnKTsKICBjb25zb2xlLmVycm9yKCdBZGljaW9uZSBhbyAuZW52OicpOwogIGNvbnNvbGUuZXJyb3IoYEJSSURHRV9TRUNSRVQ9JHtzdWdnZXN0aW9ufWApOwogIHByb2Nlc3MuZXhpdCgxKTsKfQoKLy8gSW5pdGlhbGl6ZSBhdXRoCmluaXRBdXRoKE1DUF9UT0tFTik7CgovLyDilIDilIDilIAgU3RhcnQgYnJpZGdlIHNlcnZlciAoVlMgQ29kZSBleHRlbnNpb24gY29ubmVjdHMgaGVyZSkg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSACgpicmlkZ2Uuc3RhcnQoQlJJREdFX1BPUlQsIEJSSURHRV9TRUNSRVQsIEJSSURHRV9IT1NUKTsKCmJyaWRnZS5vbignY29ubmVjdGVkJywgKGhlbGxvKSA9PiB7CiAgY29uc29sZS5sb2coYFticmlkZ2VdIOKchSBWUyBDb2RlIGNvbmVjdGFkbzogJHtoZWxsby53b3Jrc3BhY2VGb2xkZXJzLmpvaW4oJywgJyl9YCk7Cn0pOwpicmlkZ2Uub24oJ2Rpc2Nvbm5lY3RlZCcsIChoZWxsbykgPT4gewogIGNvbnNvbGUubG9nKGBbYnJpZGdlXSDwn5S0IFZTIENvZGUgZGVzY29uZWN0YWRvOiAke2hlbGxvLndvcmtzcGFjZUZvbGRlcnMuam9pbignLCAnKX1gKTsKfSk7CgovLyDilIDilIDilIAgTUNQIFNlcnZlciBmYWN0b3J5IOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKZnVuY3Rpb24gY3JlYXRlTWNwU2VydmVyKCk6IE1jcFNlcnZlciB7CiAgY29uc3Qgc2VydmVyID0gbmV3IE1jcFNlcnZlcih7CiAgICBuYW1lOiAndnNjb2RlLW1jcC10b3RhbCcsCiAgICB2ZXJzaW9uOiAnMS4wLjAnLAogIH0pOwoKICAvLyBSZWdpc3RlciBhbGwgdG9vbHMKICByZWdpc3RlckhlYWx0aFRvb2xzKHNlcnZlcik7CiAgcmVnaXN0ZXJXb3Jrc3BhY2VUb29scyhzZXJ2ZXIpOwogIHJlZ2lzdGVyRmlsZVRvb2xzKHNlcnZlcik7CiAgcmVnaXN0ZXJJbnRlbGxpZ2VuY2VUb29scyhzZXJ2ZXIpOwogIHJlZ2lzdGVyVGVybWluYWxUb29scyhzZXJ2ZXIpOwogIHJlZ2lzdGVyVGFza1Rvb2xzKHNlcnZlcik7CiAgcmVnaXN0ZXJEZWJ1Z1Rvb2xzKHNlcnZlcik7CiAgcmVnaXN0ZXJHaXRUb29scyhzZXJ2ZXIpOwogIHJlZ2lzdGVyVG9kb1Rvb2xzKHNlcnZlcik7CiAgcmVnaXN0ZXJDb21tYW5kVG9vbHMoc2VydmVyKTsKICByZWdpc3RlckFnZW50VG9vbHMoc2VydmVyKTsKCiAgcmV0dXJuIHNlcnZlcjsKfQoKLy8g4pSA4pSA4pSAIEV4cHJlc3MgYXBwIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgAoKY29uc3QgYXBwID0gZXhwcmVzcygpOwoKLy8gU2VjdXJpdHk6IG9ubHkgYWNjZXB0IEpTT04gYm9kaWVzCmFwcC51c2UoZXhwcmVzcy5qc29uKHsgbGltaXQ6ICcxMG1iJyB9KSk7CgovLyBTZWN1cml0eTogRE5TIHJlYmluZGluZyBwcm90ZWN0aW9uCi8vIChjbG91ZGZsYXJlZCBhbHdheXMgc2VuZHMgSG9zdDogMTI3LjAuMC4xLCBidXQgbGV0J3MgYmUgZXhwbGljaXQpCmFwcC51c2UoKHJlcSwgcmVzLCBuZXh0KSA9PiB7CiAgY29uc3QgaG9zdCA9IHJlcS5ob3N0bmFtZTsKICBpZiAoaG9zdCAhPT0gJzEyNy4wLjAuMScgJiYgaG9zdCAhPT0gJ2xvY2FsaG9zdCcgJiYgTk9ERV9FTlYgIT09ICdkZXZlbG9wbWVudCcpIHsKICAgIC8vIEFsbG93IGNsb3VkZmxhcmUgdHVubmVsIGNvbm5lY3Rpb25zICh0aGV5IGZvcndhcmQgdG8gMTI3LjAuMC4xKQogICAgLy8gVGhlIHJlYWwgcHJvdGVjdGlvbiBpcyB0aGUgdG9rZW4gaW4gdGhlIHBhdGgKICB9CiAgbmV4dCgpOwp9KTsKCi8vIEhlYWx0aCBlbmRwb2ludCAobm8gYXV0aCByZXF1aXJlZCDigJQganVzdCB0ZWxscyBpZiB0aGUgc2VydmVyIGlzIHVwKQphcHAuZ2V0KCcvcGluZycsIChfcmVxLCByZXMpID0+IHsKICByZXMuanNvbih7CiAgICBvazogdHJ1ZSwKICAgIHNlcnZlcjogJ3ZzY29kZS1tY3AtdG90YWwnLAogICAgdmVyc2lvbjogJzEuMC4wJywKICAgIGJyaWRnZUNvbm5lY3RlZDogYnJpZGdlLmlzQ29ubmVjdGVkKCksCiAgICB3b3Jrc3BhY2VzOiBicmlkZ2UuZ2V0V29ya3NwYWNlcygpLmxlbmd0aCwKICB9KTsKfSk7CgovLyBNQ1AgZW5kcG9pbnQgd2l0aCB0b2tlbi1pbi1wYXRoIGF1dGhlbnRpY2F0aW9uCmFwcC5wb3N0KCcvbWNwLzp0b2tlbicsIGF1dGhNaWRkbGV3YXJlLCBhc3luYyAocmVxLCByZXMpID0+IHsKICAvLyBTdGF0ZWxlc3MgbW9kZTogY3JlYXRlIGEgZnJlc2ggTWNwU2VydmVyICsgdHJhbnNwb3J0IHBlciByZXF1ZXN0CiAgY29uc3Qgc2VydmVyID0gY3JlYXRlTWNwU2VydmVyKCk7CiAgY29uc3QgdHJhbnNwb3J0ID0gbmV3IFN0cmVhbWFibGVIVFRQU2VydmVyVHJhbnNwb3J0KHsKICAgIHNlc3Npb25JZEdlbmVyYXRvcjogdW5kZWZpbmVkLCAvLyBzdGF0ZWxlc3MKICB9KTsKCiAgLy8gQ2xlYW51cCB3aGVuIGNvbm5lY3Rpb24gY2xvc2VzCiAgcmVzLm9uKCdjbG9zZScsICgpID0+IHsKICAgIHRyYW5zcG9ydC5jbG9zZSgpOwogICAgc2VydmVyLmNsb3NlKCk7CiAgfSk7CgogIHRyeSB7CiAgICBhd2FpdCBzZXJ2ZXIuY29ubmVjdCh0cmFuc3BvcnQpOwogICAgYXdhaXQgdHJhbnNwb3J0LmhhbmRsZVJlcXVlc3QocmVxLCByZXMsIHJlcS5ib2R5KTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ1ttY3BdIEVycm9yIGhhbmRsaW5nIHJlcXVlc3Q6JywgZXJyKTsKICAgIGlmICghcmVzLmhlYWRlcnNTZW50KSB7CiAgICAgIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgZXJyb3I6ICdJbnRlcm5hbCBzZXJ2ZXIgZXJyb3InIH0pOwogICAgfQogIH0KfSk7CgovLyBHRVQgZm9yIFNTRSAoU3RyZWFtYWJsZSBIVFRQIHN1cHBvcnRzIEdFVCBmb3Igc2VydmVyLXNlbnQgZXZlbnRzKQphcHAuZ2V0KCcvbWNwLzp0b2tlbicsIGF1dGhNaWRkbGV3YXJlLCBhc3luYyAocmVxLCByZXMpID0+IHsKICBjb25zdCBzZXJ2ZXIgPSBjcmVhdGVNY3BTZXJ2ZXIoKTsKICBjb25zdCB0cmFuc3BvcnQgPSBuZXcgU3RyZWFtYWJsZUhUVFBTZXJ2ZXJUcmFuc3BvcnQoewogICAgc2Vzc2lvbklkR2VuZXJhdG9yOiB1bmRlZmluZWQsCiAgfSk7CgogIHJlcy5vbignY2xvc2UnLCAoKSA9PiB7CiAgICB0cmFuc3BvcnQuY2xvc2UoKTsKICAgIHNlcnZlci5jbG9zZSgpOwogIH0pOwoKICB0cnkgewogICAgYXdhaXQgc2VydmVyLmNvbm5lY3QodHJhbnNwb3J0KTsKICAgIGF3YWl0IHRyYW5zcG9ydC5oYW5kbGVSZXF1ZXN0KHJlcSwgcmVzKTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ1ttY3BdIEVycm9yIGhhbmRsaW5nIFNTRSByZXF1ZXN0OicsIGVycik7CiAgICBpZiAoIXJlcy5oZWFkZXJzU2VudCkgewogICAgICByZXMuc3RhdHVzKDUwMCkuanNvbih7IGVycm9yOiAnSW50ZXJuYWwgc2VydmVyIGVycm9yJyB9KTsKICAgIH0KICB9Cn0pOwoKLy8gREVMRVRFIGZvciBzZXNzaW9uIGNsZWFudXAKYXBwLmRlbGV0ZSgnL21jcC86dG9rZW4nLCBhdXRoTWlkZGxld2FyZSwgYXN5bmMgKHJlcSwgcmVzKSA9PiB7CiAgY29uc3QgdHJhbnNwb3J0ID0gbmV3IFN0cmVhbWFibGVIVFRQU2VydmVyVHJhbnNwb3J0KHsKICAgIHNlc3Npb25JZEdlbmVyYXRvcjogdW5kZWZpbmVkLAogIH0pOwogIHRyeSB7CiAgICBhd2FpdCB0cmFuc3BvcnQuaGFuZGxlUmVxdWVzdChyZXEsIHJlcyk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICByZXMuc3RhdHVzKDIwMCkuanNvbih7IG9rOiB0cnVlIH0pOwogIH0KfSk7CgovLyA0MDQgZm9yIGV2ZXJ5dGhpbmcgZWxzZSAoZG9uJ3QgcmV2ZWFsIHNlcnZlciBleGlzdHMpCmFwcC51c2UoKF9yZXEsIHJlcykgPT4gewogIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgZXJyb3I6ICdOb3QgZm91bmQnIH0pOwp9KTsKCi8vIOKUgOKUgOKUgCBTdGFydCDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIAKCmFwcC5saXN0ZW4oTUNQX1BPUlQsIE1DUF9IT1NULCAoKSA9PiB7CiAgY29uc29sZS5sb2coJycpOwogIGNvbnNvbGUubG9nKCfilZTilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZcnKTsKICBjb25zb2xlLmxvZygn4pWRICAgICAgICBWUyBDb2RlIE1DUCBUb3RhbCDigJQgU2Vydmlkb3IgTUNQICAgICAgICAgICAg4pWRJyk7CiAgY29uc29sZS5sb2coJ+KVoOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVoycpOwogIGNvbnNvbGUubG9nKGDilZEgIEVuZHBvaW50IE1DUDogIGh0dHA6Ly8ke01DUF9IT1NUfToke01DUF9QT1JUfS9tY3AvPFRPS0VOPmApOwogIGNvbnNvbGUubG9nKGDilZEgIEJyaWRnZSAoV1NTKTogIHdzOi8vJHtCUklER0VfSE9TVH06JHtCUklER0VfUE9SVH1gKTsKICBjb25zb2xlLmxvZyhg4pWRICBQaW5nOiAgICAgICAgICBodHRwOi8vJHtNQ1BfSE9TVH06JHtNQ1BfUE9SVH0vcGluZ2ApOwogIGNvbnNvbGUubG9nKCfilaDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilaMnKTsKICBjb25zb2xlLmxvZyhg4pWRICBBbWJpZW50ZTogJHtOT0RFX0VOVn1gKTsKICBjb25zb2xlLmxvZygn4pWa4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWdJyk7CiAgY29uc29sZS5sb2coJycpOwogIGNvbnNvbGUubG9nKCfimqEgQWd1YXJkYW5kbyBjb25leMOjbyBkYSBleHRlbnPDo28gVlMgQ29kZS4uLicpOwogIGNvbnNvbGUubG9nKCcgICAoY29kZS1zZXJ2ZXIgY29tIGV4dGVuc8OjbyAiVlMgQ29kZSBNQ1AgQnJpZGdlIiBhdGl2YSknKTsKICBjb25zb2xlLmxvZygnJyk7Cn0pOwoKLy8gR3JhY2VmdWwgc2h1dGRvd24KcHJvY2Vzcy5vbignU0lHSU5UJywgKCkgPT4gewogIGNvbnNvbGUubG9nKCdcbltzZXJ2ZXJdIEVuY2VycmFuZG8uLi4nKTsKICBicmlkZ2Uuc3RvcCgpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSk7Cgpwcm9jZXNzLm9uKCdTSUdURVJNJywgKCkgPT4gewogIGJyaWRnZS5zdG9wKCk7CiAgcHJvY2Vzcy5leGl0KDApOwp9KTsK
+/**
+ * index.ts — MCP Server bootstrap
+ *
+ * Architecture:
+ *   Claude → HTTPS → Express (port 7337)
+ *     → validates token in path → creates McpServer (stateless)
+ *     → server tools call bridge.call() → WebSocket to VS Code extension
+ *
+ * Auth: token embedded in path (/mcp/:token) — the URL IS the secret.
+ * Transport: Streamable HTTP, stateless.
+ * IPC: WebSocket server on 127.0.0.1:7100 (bridge-client.ts).
+ */
+
+import 'dotenv/config';
+import express from 'express';
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
+import { isInitializeRequest } from '@modelcontextprotocol/sdk/types.js';
+
+import { initAuth, authMiddleware, generateToken } from './auth.js';
+import { bridge } from './bridge-client.js';
+
+import { registerHealthTools } from './tools/health.js';
+import { registerWorkspaceTools } from './tools/workspace.js';
+import { registerFileTools } from './tools/files.js';
+import { registerIntelligenceTools } from './tools/intelligence.js';
+import { registerTerminalTools } from './tools/terminal.js';
+import { registerTaskTools } from './tools/tasks.js';
+import { registerDebugTools } from './tools/debug.js';
+import { registerGitTools } from './tools/git.js';
+import { registerTodoTools } from './tools/todos.js';
+import { registerCommandTools } from './tools/commands.js';
+import { registerAgentTools } from './tools/agent.js';
+
+const MCP_PORT = parseInt(process.env.MCP_PORT ?? '7337', 10);
+const BRIDGE_PORT = parseInt(process.env.BRIDGE_PORT ?? '7100', 10);
+const MCP_TOKEN = process.env.MCP_TOKEN ?? '';
+const BRIDGE_SECRET = process.env.BRIDGE_SECRET ?? '';
+const NODE_ENV = process.env.NODE_ENV ?? 'production';
+const BRIDGE_HOST = process.env.BRIDGE_HOST ?? '127.0.0.1';
+const MCP_HOST = process.env.MCP_HOST ?? '127.0.0.1';
+
+if (!MCP_TOKEN) {
+  const suggestion = generateToken();
+  console.error('\u274c MCP_TOKEN n\u00e3o configurado!');
+  console.error(`MCP_TOKEN=${suggestion}`);
+  process.exit(1);
+}
+
+if (!BRIDGE_SECRET) {
+  const suggestion = generateToken().slice(0, 32);
+  console.error('\u274c BRIDGE_SECRET n\u00e3o configurado!');
+  console.error(`BRIDGE_SECRET=${suggestion}`);
+  process.exit(1);
+}
+
+initAuth(MCP_TOKEN);
+
+bridge.start(BRIDGE_PORT, BRIDGE_SECRET, BRIDGE_HOST);
+
+bridge.on('connected', (hello) => {
+  console.log(`[bridge] \u2705 VS Code conectado: ${hello.workspaceFolders.join(', ')}`);
+});
+bridge.on('disconnected', (hello) => {
+  console.log(`[bridge] \ud83d\udd34 VS Code desconectado: ${hello.workspaceFolders.join(', ')}`);
+});
+
+function createMcpServer(): McpServer {
+  const server = new McpServer({ name: 'vscode-mcp-total', version: '1.0.0' });
+  registerHealthTools(server);
+  registerWorkspaceTools(server);
+  registerFileTools(server);
+  registerIntelligenceTools(server);
+  registerTerminalTools(server);
+  registerTaskTools(server);
+  registerDebugTools(server);
+  registerGitTools(server);
+  registerTodoTools(server);
+  registerCommandTools(server);
+  registerAgentTools(server);
+  return server;
+}
+
+const app = express();
+app.use(express.json({ limit: '10mb' }));
+
+app.use((req, res, next) => { next(); });
+
+app.get('/ping', (_req, res) => {
+  res.json({ ok: true, server: 'vscode-mcp-total', version: '1.0.0', bridgeConnected: bridge.isConnected(), workspaces: bridge.getWorkspaces().length });
+});
+
+app.post('/mcp/:token', authMiddleware, async (req, res) => {
+  const server = createMcpServer();
+  const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+  res.on('close', () => { transport.close(); server.close(); });
+  try {
+    await server.connect(transport);
+    await transport.handleRequest(req, res, req.body);
+  } catch (err) {
+    console.error('[mcp] Error handling request:', err);
+    if (!res.headersSent) { res.status(500).json({ error: 'Internal server error' }); }
+  }
+});
+
+app.get('/mcp/:token', authMiddleware, async (req, res) => {
+  const server = createMcpServer();
+  const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+  res.on('close', () => { transport.close(); server.close(); });
+  try {
+    await server.connect(transport);
+    await transport.handleRequest(req, res);
+  } catch (err) {
+    console.error('[mcp] Error handling SSE request:', err);
+    if (!res.headersSent) { res.status(500).json({ error: 'Internal server error' }); }
+  }
+});
+
+app.delete('/mcp/:token', authMiddleware, async (req, res) => {
+  const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined });
+  try { await transport.handleRequest(req, res); } catch (err) { res.status(200).json({ ok: true }); }
+});
+
+app.use((_req, res) => { res.status(404).json({ error: 'Not found' }); });
+
+app.listen(MCP_PORT, MCP_HOST, () => {
+  console.log(`\n[server] VS Code MCP Total running on http://${MCP_HOST}:${MCP_PORT}`);
+  console.log(`[server] Bridge WS on ws://${BRIDGE_HOST}:${BRIDGE_PORT}`);
+  console.log(`[server] Ping: http://${MCP_HOST}:${MCP_PORT}/ping`);
+  console.log(`[server] Environment: ${NODE_ENV}\n`);
+});
+
+process.on('SIGINT', () => { bridge.stop(); process.exit(0); });
+process.on('SIGTERM', () => { bridge.stop(); process.exit(0); });
