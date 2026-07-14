@@ -1,1 +1,48 @@
-LyoqCiAqIHNjaGVtYXMudHMg4oCUIFNoYXJlZCBab2Qgc2NoZW1hcyB1c2VkIGFjcm9zcyB0b29scy4KICovCgppbXBvcnQgeyB6IH0gZnJvbSAnem9kJzsKCi8qKiBPcHRpb25hbCB3b3Jrc3BhY2VfcGF0aCBwYXJhbWV0ZXIgZm9yIG11bHRpLXdpbmRvdyByb3V0aW5nICovCmV4cG9ydCBjb25zdCBXb3Jrc3BhY2VQYXJhbSA9IHoub2JqZWN0KHsKICB3b3Jrc3BhY2VfcGF0aDogegogICAgLnN0cmluZygpCiAgICAub3B0aW9uYWwoKQogICAgLmRlc2NyaWJlKCdDYW1pbmhvIGRhIHBhc3RhIGRvIHdvcmtzcGFjZSAoZXg6IEM6L3Byb2pldG9zL21ldS1hcHApLiBPbWl0YSBzZSBzw7MgaG91dmVyIHVtYSBqYW5lbGEgYWJlcnRhLicpLAp9KTsKCi8qKiBGaWxlIHBvc2l0aW9uIChsaW5lIGlzIDEtYmFzZWQsIGNvbHVtbiBpcyAxLWJhc2VkKSAqLwpleHBvcnQgY29uc3QgUG9zaXRpb24gPSB6Lm9iamVjdCh7CiAgbGluZTogei5udW1iZXIoKS5pbnQoKS5taW4oMSkuZGVzY3JpYmUoJ077aDptZXJvIGRhIGxpbmhhIChjb21lw6dhIGVtIDEpJyksCiAgY29sdW1uOiB6Lm51bWJlcigpLmludCgpLm1pbigxKS5kZWZhdWx0KDEpLmRlc2NyaWJlKCdOw7ptZXJvIGRhIGNvbHVuYSAoY29tZcOnYSBlbSAxKScpLAp9KTsKCi8qKiBSYW5nZSBpbiBhIGZpbGUgKi8KZXhwb3J0IGNvbnN0IFJhbmdlID0gei5vYmplY3QoewogIHN0YXJ0TGluZTogei5udW1iZXIoKS5pbnQoKS5taW4oMSksCiAgc3RhcnRDb2x1bW46IHoubnVtYmVyKCkuaW50KCkubWluKDEpLmRlZmF1bHQoMSksCiAgZW5kTGluZTogei5udW1iZXIoKS5pbnQoKS5taW4oMSksCiAgZW5kQ29sdW1uOiB6Lm51bWJlcigpLmludCgpLm1pbigxKS5kZWZhdWx0KDEpLAp9KTsKCi8qKiBTZXZlcml0eSBsZXZlbHMgZm9yIGRpYWdub3N0aWNzICovCmV4cG9ydCBjb25zdCBTZXZlcml0eSA9IHouZW51bShbJ2Vycm9yJywgJ3dhcm5pbmcnLCAnaW5mb3JtYXRpb24nLCAnaGludCddKTsKCi8qKiBHaXQgb3BlcmF0aW9ucyAqLwpleHBvcnQgY29uc3QgR2l0U3luY1R5cGUgPSB6LmVudW0oWydwdWxsJywgJ3B1c2gnLCAnZmV0Y2gnLCAnc3luYyddKTsKCi8qKiBUYXNrIGdyb3VwICovCmV4cG9ydCBjb25zdCBUYXNrR3JvdXAgPSB6LmVudW0oWydidWlsZCcsICd0ZXN0JywgJ3JlYnVpbGQnLCAnY2xlYW4nLCAnbm9uZSddKS5kZWZhdWx0KCdub25lJyk7CgovKiogRGVidWcgY29udHJvbCBhY3Rpb25zICovCmV4cG9ydCBjb25zdCBEZWJ1Z0FjdGlvbiA9IHouZW51bShbJ2NvbnRpbnVlJywgJ3N0ZXBPdmVyJywgJ3N0ZXBJbnRvJywgJ3N0ZXBPdXQnLCAncGF1c2UnLCAnc3RvcCcsICdyZXN0YXJ0J10pOwoKLyoqIEZpbGUgb3BlcmF0aW9ucyAqLwpleHBvcnQgY29uc3QgRmlsZU9wID0gei5lbnVtKFsnbW92ZScsICdjb3B5JywgJ2RlbGV0ZScsICdyZW5hbWUnXSk7CgovKiogVE9ETyBzdGF0dXMgKi8KZXhwb3J0IGNvbnN0IFRvZG9TdGF0dXMgPSB6LmVudW0oWydwZW5kaW5nJywgJ2luX3Byb2dyZXNzJywgJ2RvbmUnLCAnY2FuY2VsbGVkJ10pOwoKLyoqIE5vdGlmaWNhdGlvbiBsZXZlbCAqLwpleHBvcnQgY29uc3QgTWVzc2FnZUxldmVsID0gei5lbnVtKFsnaW5mbycsICd3YXJuaW5nJywgJ2Vycm9yJ10pOwo=
+/**
+ * schemas.ts — Shared Zod schemas used across tools.
+ */
+
+import { z } from 'zod';
+
+/** Optional workspace_path parameter for multi-window routing */
+export const WorkspaceParam = z.object({
+  workspace_path: z
+    .string()
+    .optional()
+    .describe('Caminho da pasta do workspace (ex: C:/projetos/meu-app). Omita se só houver uma janela aberta.'),
+});
+
+/** File position (line is 1-based, column is 1-based) */
+export const Position = z.object({
+  line: z.number().int().min(1).describe('Número da linha (começa em 1)'),
+  column: z.number().int().min(1).default(1).describe('Número da coluna (começa em 1)'),
+});
+
+/** Range in a file */
+export const Range = z.object({
+  startLine: z.number().int().min(1),
+  startColumn: z.number().int().min(1).default(1),
+  endLine: z.number().int().min(1),
+  endColumn: z.number().int().min(1).default(1),
+});
+
+/** Severity levels for diagnostics */
+export const Severity = z.enum(['error', 'warning', 'information', 'hint']);
+
+/** Git operations */
+export const GitSyncType = z.enum(['pull', 'push', 'fetch', 'sync']);
+
+/** Task group */
+export const TaskGroup = z.enum(['build', 'test', 'rebuild', 'clean', 'none']).default('none');
+
+/** Debug control actions */
+export const DebugAction = z.enum(['continue', 'stepOver', 'stepInto', 'stepOut', 'pause', 'stop', 'restart']);
+
+/** File operations */
+export const FileOp = z.enum(['move', 'copy', 'delete', 'rename']);
+
+/** TODO status */
+export const TodoStatus = z.enum(['pending', 'in_progress', 'done', 'cancelled']);
+
+/** Notification level */
+export const MessageLevel = z.enum(['info', 'warning', 'error']);

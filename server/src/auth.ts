@@ -1,1 +1,62 @@
-LyoqCiAqIGF1dGgudHMg4oCUIFRva2VuLWluLXBhdGggYXV0aGVudGljYXRpb24KICoKICogU2VjdXJpdHkgbW9kZWw6IHRoZSBmdWxsIFVSTCBpcyB0aGUgc2VjcmV0LgogKiBUb2tlbiBpcyBlbWJlZGRlZCBpbiB0aGUgcmVxdWVzdCBwYXRoOiBQT1NUIC9tY3AvOnRva2VuCiAqCiAqIE5FVkVSIGNvbW1pdCB0aGUgYWN0dWFsIHRva2VuLiBTdG9yZSBpdCBpbiAuZW52IChNQ1BfVE9LRU4pLgogKiBUaGUgdG9rZW4gbXVzdCBiZSBhdCBsZWFzdCA2NCBjaGFyYWN0ZXJzIG9mIGNyeXB0b2dyYXBoaWMgcmFuZG9tbmVzcy4KICovCgppbXBvcnQgY3J5cHRvIGZyb20gJ2NyeXB0byc7CgpsZXQgX3Rva2VuOiBzdHJpbmcgfCBudWxsID0gbnVsbDsKCmV4cG9ydCBmdW5jdGlvbiBpbml0QXV0aCh0b2tlbjogc3RyaW5nKTogdm9pZCB7CiAgaWYgKHRva2VuLmxlbmd0aCA8IDMyKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ1thdXRoXSBNQ1BfVE9LRU4gbXVzdCBiZSBhdCBsZWFzdCAzMiBjaGFyYWN0ZXJzLiBHZW5lcmF0ZSBvbmUgd2l0aDogbm9kZSAtZSAiY29uc29sZS5sb2cocmVxdWlyZShcJ2NyeXB0b1wnKS5yYW5kb21CeXRlcyg0OCkudG9TdHJpbmcoXCdoZXhcJykpIicpOwogIH0KICBfdG9rZW4gPSB0b2tlbjsKfQoKLyoqCiAqIENvbnN0YW50LXRpbWUgY29tcGFyaXNvbiB0byBwcmV2ZW50IHRpbWluZyBhdHRhY2tzLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHZhbGlkYXRlVG9rZW4oY2FuZGlkYXRlOiBzdHJpbmcpOiBib29sZWFuIHsKICBpZiAoIV90b2tlbikgcmV0dXJuIGZhbHNlOwogIGlmIChjYW5kaWRhdGUubGVuZ3RoICE9PSBfdG9rZW4ubGVuZ3RoKSByZXR1cm4gZmFsc2U7CgogIHRyeSB7CiAgICByZXR1cm4gY3J5cHRvLnRpbWluZ1NhZmVFcXVhbCgKICAgICAgQnVmZmVyLmZyb20oY2FuZGlkYXRlLCAndXRmOCcpLAogICAgICBCdWZmZXIuZnJvbShfdG9rZW4sICd1dGY4JykKICAgICk7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovKioKICogRXhwcmVzcyBtaWRkbGV3YXJlIOKAlCB2YWxpZGF0ZXMgdGhlIDp0b2tlbiByb3V0ZSBwYXJhbS4KICogUmV0dXJucyA0MDQgKG5vdCA0MDEpIHRvIGF2b2lkIHJldmVhbGluZyB0aGF0IHRoZSBlbmRwb2ludCBleGlzdHMuCiAqLwpleHBvcnQgZnVuY3Rpb24gYXV0aE1pZGRsZXdhcmUoCiAgcmVxOiBpbXBvcnQoJ2V4cHJlc3MnKS5SZXF1ZXN0LAogIHJlczogaW1wb3J0KCdleHByZXNzJykuUmVzcG9uc2UsCiAgbmV4dDogaW1wb3J0KCdleHByZXNzJykuTmV4dEZ1bmN0aW9uCik6IHZvaWQgewogIGNvbnN0IHRva2VuID0gcmVxLnBhcmFtcy50b2tlbiA/PyAnJzsKICBpZiAoIXZhbGlkYXRlVG9rZW4odG9rZW4pKSB7CiAgICByZXMuc3RhdHVzKDQwNCkuanNvbih7IGVycm9yOiAnTm90IGZvdW5kJyB9KTsKICAgIHJldHVybjsKICB9CiAgbmV4dCgpOwp9CgovKioKICogR2VuZXJhdGUgYSBjcnlwdG9ncmFwaGljYWxseSBzZWN1cmUgdG9rZW4uCiAqIFVzYWdlOiBub2RlIC1lICJyZXF1aXJlKCcuL2Rpc3QvYXV0aCcpLmdlbmVyYXRlVG9rZW4oKS50aGVuKGNvbnNvbGUubG9nKSIKICovCmV4cG9ydCBmdW5jdGlvbiBnZW5lcmF0ZVRva2VuKCk6IHN0cmluZyB7CiAgcmV0dXJuIGNyeXB0by5yYW5kb21CeXRlcyg0OCkudG9TdHJpbmcoJ2hleCcpOyAvLyA5NiBoZXggY2hhcnMKfQo=
+/**
+ * auth.ts — Token-in-path authentication
+ *
+ * Security model: the full URL is the secret.
+ * Token is embedded in the request path: POST /mcp/:token
+ *
+ * NEVER commit the actual token. Store it in .env (MCP_TOKEN).
+ * The token must be at least 64 characters of cryptographic randomness.
+ */
+
+import crypto from 'crypto';
+
+let _token: string | null = null;
+
+export function initAuth(token: string): void {
+  if (token.length < 32) {
+    throw new Error('[auth] MCP_TOKEN must be at least 32 characters. Generate one with: node -e "console.log(require(\'crypto\').randomBytes(48).toString(\'hex\'))"');
+  }
+  _token = token;
+}
+
+/**
+ * Constant-time comparison to prevent timing attacks.
+ */
+export function validateToken(candidate: string): boolean {
+  if (!_token) return false;
+  if (candidate.length !== _token.length) return false;
+
+  try {
+    return crypto.timingSafeEqual(
+      Buffer.from(candidate, 'utf8'),
+      Buffer.from(_token, 'utf8')
+    );
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Express middleware — validates the :token route param.
+ * Returns 404 (not 401) to avoid revealing that the endpoint exists.
+ */
+export function authMiddleware(
+  req: import('express').Request,
+  res: import('express').Response,
+  next: import('express').NextFunction
+): void {
+  const token = req.params.token ?? '';
+  if (!validateToken(token)) {
+    res.status(404).json({ error: 'Not found' });
+    return;
+  }
+  next();
+}
+
+/**
+ * Generate a cryptographically secure token.
+ * Usage: node -e "require('./dist/auth').generateToken().then(console.log)"
+ */
+export function generateToken(): string {
+  return crypto.randomBytes(48).toString('hex'); // 96 hex chars
+}
