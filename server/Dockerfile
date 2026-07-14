@@ -1,17 +1,17 @@
-# ── Stage 1: Build ──────────────────────────────────────────────────────────
+# ── Stage 1: Build ────────────────────────────────────────────────────────────
 FROM node:20-alpine AS builder
 
 WORKDIR /app
 
 COPY package*.json ./
-RUN npm ci --silent
+RUN npm install --silent
 
 COPY tsconfig.json ./
 COPY src/ ./src/
 
 RUN npm run build
 
-# ── Stage 2: Runtime ─────────────────────────────────────────────────────────
+# ── Stage 2: Runtime ───────────────────────────────────────────────────────────
 FROM node:20-alpine AS runtime
 
 # Install ripgrep for text search (used by extension's files.search handler)
@@ -21,7 +21,7 @@ WORKDIR /app
 
 # Only copy production dependencies
 COPY package*.json ./
-RUN npm ci --omit=dev --silent
+RUN npm install --omit=dev --silent
 
 COPY --from=builder /app/dist ./dist
 
