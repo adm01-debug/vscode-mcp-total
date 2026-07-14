@@ -26,12 +26,16 @@ services:
   # ── code-server (VS Code no browser) ──────────────────────────────────────
   code-server:
     image: lscr.io/linuxserver/code-server:latest
-    # Override entrypoint para escrever settings.json antes de iniciar o s6-overlay
     entrypoint: ["/bin/sh", "-c"]
     command:
       - |
         mkdir -p /config/data/User
-        printf '{"vscodeMcp.enable":true,"vscodeMcp.serverHost":"mcp-server","vscodeMcp.port":7100,"vscodeMcp.sharedSecret":"%s","vscodeMcp.requireApproval":false,"vscodeMcp.logLevel":"info","editor.fontSize":14,"editor.tabSize":2,"workbench.colorTheme":"Default Dark Modern"}' "${BRIDGE_SECRET}" > /config/data/User/settings.json
+        printf '{"vscodeMcp.enable":true,"vscodeMcp.bridgeHost":"mcp-server","vscodeMcp.bridgePort":7100,"vscodeMcp.bridgeSecret":"%s","vscodeMcp.requireApproval":false,"vscodeMcp.logLevel":"info","editor.fontSize":14,"editor.tabSize":2,"workbench.colorTheme":"Default Dark Modern"}' "${BRIDGE_SECRET}" > /config/data/User/settings.json
+        if [ -f /workspace/vscode-mcp-bridge-1.0.0.vsix ]; then
+          echo "[entrypoint] Installing MCP Bridge extension..."
+          /app/code-server/bin/code-server --install-extension /workspace/vscode-mcp-bridge-1.0.0.vsix --force 2>&1 || true
+          echo "[entrypoint] Extension installed."
+        fi
         exec /init
     environment:
       - PUID=1000
@@ -45,15 +49,16 @@ services:
       - workspace:/workspace
     networks:
       - AtomicaBRNet
+      - internal
     deploy:
       replicas: 1
       placement:
         constraints:
           - node.role == manager
       restart_policy:
-        condition: on-failure
+        condition: any
         delay: 5s
-        max_attempts: 3
+        max_attempts: 10
       labels:
         - traefik.enable=true
         - traefik.docker.network=AtomicaBRNet
@@ -78,15 +83,16 @@ services:
       - workspace:/workspace
     networks:
       - AtomicaBRNet
+      - internal
     deploy:
       replicas: 1
       placement:
         constraints:
           - node.role == manager
       restart_policy:
-        condition: on-failure
+        condition: any
         delay: 5s
-        max_attempts: 3
+        max_attempts: 10
       labels:
         - traefik.enable=true
         - traefik.docker.network=AtomicaBRNet
@@ -105,6 +111,8 @@ networks:
   AtomicaBRNet:
     external: true
     name: AtomicaBRNet
+  internal:
+    driver: overlay
 
 # ── Volumes ────────────────────────────────────────────────────────────────
 volumes:
